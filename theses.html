@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script> 
+    $(function(){
+      $("#navbar").load("navbar.html");
+      $("#footer").load("footer.html"); 
+    });
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>Daniele De Sensi</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Custom styles for this page -->
+    <link href="assets/css/publications.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/hover.zoom.js"></script>
+    <script src="assets/js/hover.zoom.conf.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Static navbar -->
+    <div id="navbar"></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="offset1 span8">
+          <br/>
+          <!--------------------------------->
+          <!------------ Ph.D. ---------- -->
+          <!--------------------------------->
+          </br>
+          In this page I briefly describe my Ph.D. thesis, Master's thesis and 
+          Bachelor's thesis.
+          </br>
+          <hr>
+          <h3>Ph.D. thesis: <i>Self-Adaptive Solutions for Managing Performance and Power Consumption of Parallel Applications</i></h3> 
+          <span>
+          <b>Abstract:</b> <i>Power consumption management in computing systems is gaining an increasing attention due to its environmental and economic impact. On one side, it
+has been estimated that CO 2 emissions of U.S. data centers during 2010 were
+on par with those of an entire country like Argentina. On the other side, the
+cost of the energy required to keep the system running is quickly going to
+overcome the cost of the physical system itself. Despite the improvements in
+the hardware technology, a proper management of the applications running
+on top of that hardware is still of paramount importance, since estimations
+show that the power demand of datacenter will rapidly grow 10% - 12% per
+year. Power consumption is an important issue even on smaller devices. For
+example, on mobile devices, an efficient power management leads to a longer
+battery life and to a better user experience. As a consequence, a better battery
+management would enable the diffusion of more complex and richer applications.
+In this thesis, we focus on scenarios where the user wants to express specific Quality of Service (QoS) requirements on his application, regarding performance and power consumption. Requirements can be enforced by using
+self-adaptive algorithms, to dynamically and automatically adapt the number of
+resources allocated to the application (i.e., its configuration). To select a proper
+configuration, most existing approaches rely either on heuristics or on machine
+learning models. While heuristics may work fine in general, they are usually
+less accurate than machine learning solutions. On the other hand, despite being more accurate than heuristics, machine learning techniques typically require extensive training phases to be performed offline, before the application
+starts its execution. Moreover, machine learning techniques may not be able
+to find a suitable configuration for applications with characteristics different
+from those of the applications used to train the models.
+In this thesis we try to close the gap between these two approaches, by
+proposing an online learning algorithm which, like the heuristics, will not rely
+on any training phase to be performed offline and, at the same time, can achieve the same accuracy of complex offline machine learning approaches. Since a
+simulation would not capture all the runtime related overheads introduced by
+such algorithms, we designed and implemented a full software stack (released
+as open source), ranging from the management of hardware control mechaisms to parallel applications to be used as benchmarks. This led to the design
+of Nornir, a framework to be used by application users to enforce explicit performance and power consumption requirements on their applications. Nornir
+can be customized by algorithms designers to implement new self-adaptive
+strategies easily and to compare them with the state of the art algorithms already provided by the framework. Eventually, we will show that if the application has some clear and well-defined structure, it would be possible for
+the algorithms to select better configurations regarding power/performance
+tradeoffs.</i></br>
+           <center>
+           <a class="btn btn-primary" target="_blank" href="http://pages.di.unipi.it/desensi/assets/pdf/Thesis_PhD.pdf"> 
+           PDF
+           </a> 
+            
+           <a class="btn btn-primary" target="_blank" href="https://docs.google.com/presentation/d/1v1jBu_9k6XGA194UlYFKwyf4BqoOffKvrDmwG8iGP0k/edit?usp=sharing"> 
+           Slides
+           </a> 
+           </center>
+
+            </br>
+          You can watch
+          <a target="_blank" href="https://www.youtube.com/watch?v=ckm-Zu8cLdA&feature=youtu.be">here</a> a short video introducing one of the core
+          parts of the thesis.
+
+          </br>
+          </span>
+          <hr>
+          <!---------------------------------->
+          <!-- ---------- Master ---------- -->
+          <!---------------------------------->
+          <h3>Master's thesis: <i>DPI Over Commodity Hardware: Implementation of a Scalable Framework Using FastFlow</i></h3> 
+          <span>
+          <b>Abstract:</b> <i>The target of this thesis is to explore the possibility to apply structured parallel programming theory to support the implementation of a Deep Packet Inspection (DPI) framework. We have shown that, using structured parallel programming concepts and with an accurate design, we are able to do stateful packet inspection over current network rates using commodity multicore hardware and to achieve a good speedup and results comparable to those obtained by dedicated hardware.</i>
+          </br>
+          The thesis lead to the creation of the <i>Peafowl</i> Deep Packet Inspection engine. The developed source code can be found <a target="_blank" href="https://github.com/DanieleDeSensi/Peafowl">here</a>.</br>
+           <center>
+           <a class="btn btn-primary" target="_blank" href="http://pages.di.unipi.it/desensi/assets/pdf/Thesis_Master.pdf"> 
+           PDF
+           </a> 
+           </center>
+          </br>
+          </span>
+          <hr>
+
+          <!------------------------------------>
+          <!-- ---------- Bachelor ---------- -->
+          <!------------------------------------>
+          <h3>Bachelor's thesis: <i>Realization of a Muskel Over FastFlow Version</i></h3> 
+          <span>
+          <b>Abstract:</b> <i>The target of this work is the implementation of a library for the parallel execution of Macro Data Flow graphs over shared memory architectures. Beside the possibility to express generic flow graphs, the library provides some well known patterns as farm, pipeline, map, reduce and any possible combination among them.</i>
+          </br>
+          The developed source code is now integrated into the <a target="_blank" href="https://github.com/DanieleDeSensi/nornir">Nornir</a> power-aware runtime support.</br>
+           <center>
+           <a class="btn btn-primary" target="_blank" href="http://pages.di.unipi.it/desensi/assets/pdf/Thesis_Bachelor.pdf"> 
+           PDF
+           </a> 
+           </center>
+          </br>
+          </span>
+          <hr>
+          <br/>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+    </div>
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

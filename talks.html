@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script> 
+    $(function(){
+      $("#navbar").load("navbar.html");
+      $("#footer").load("footer.html"); 
+    });
+    </script>
+
+    <script type='text/javascript'>//<![CDATA[
+      $(window).load(function(){
+      $('.dropdown-menu').click(function(e) {
+        e.stopPropagation();
+      });
+      });//]]> 
+    </script>
+
+    <!-- To set the correct width in abstract and bibtex dropdowns -->
+    <script>
+      function getWidth(){
+        var width = document.getElementById("navbar").clientWidth/2 + "px";
+	var widthStr = "width: " + width + ";";
+        var abstracts = document.getElementsByClassName("abstract");
+        var bibtexes = document.getElementsByClassName("bibtex");
+        for(var i = 0; i < abstracts.length; i++){
+          abstracts[i].setAttribute("style", widthStr);
+        }
+
+	for(var i = 0; i < bibtexes.length; i++){
+          bibtexes[i].setAttribute("style", widthStr);
+        }
+      }
+
+      window.onload=function() {
+        getWidth();
+      }
+    </script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <title>Daniele De Sensi</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Custom styles for this page -->
+    <link href="assets/css/publications.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/hover.zoom.js"></script>
+    <script src="assets/js/hover.zoom.conf.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Static navbar -->
+    <div id="navbar"></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="offset1 span8">
+          </br>
+
+<hr>
+<h4><i>Adding Autonomic and Power-Aware Capabilities to Parallel Streaming Applications with the Nornir Framework</i></h4>
+<span>
+Tutorial, AutoDaSP Workshop, Aug 2019  <a class="btn btn-primary leftmargin" target="_blank" href="https://docs.google.com/presentation/d/1UyhjY0M60hR02A1M1bJxeofkVkwKJ-J_AJLy_EzFwhE/edit?usp=sharing
+">Slides</a>
+<hr>
+<h4><i>Managing Performance and Power Consumption of Parallel Applications</i></h4>
+<span>
+PhDEvent, University of Pisa, Jan 2019  <a class="btn btn-primary leftmargin" target="_blank" href="https://docs.google.com/presentation/d/1ay1iWKkxpS7dFpx3AwJjTRXxfOXV_-viqxXFFYlnDAo/edit?usp=sharing
+">Slides</a>
+<hr>
+<h4><i>Controlling Application's Performance and Power Consumption</i></h4>
+<span>
+Invited Talk, Reply Xchange, Jul 2018  <a class="btn btn-primary leftmargin" target="_blank" href="https://drive.google.com/open?id=1LaRBtaTNXP-ElNv6nsoVOaWQyiDnSDG-88ldnBrW71c
+">Slides</a>
+<hr>
+<h4><i>User Experience o Consumo Energetico: Alternative Parallele</i></h4>
+<span>
+PhDDay, University of Pisa, Dec 2017  <a class="btn btn-primary leftmargin" target="_blank" href="https://docs.google.com/presentation/d/1PhVxh79UMrf3hgE30f6BXxXF9FOBGNx7--Lqb_FO7HU/edit?usp=sharing
+">Slides</a>
+<hr>
+<h4><i>P3ARSEC: Towards Parallel Patterns Benchmarking</i></h4>
+<span>
+Seminar, Queen's University Belfast, Mar 2017  <a class="btn btn-primary leftmargin" target="_blank" href="https://drive.google.com/open?id=1tbGK13EGookcV1HvVbup2Rx1HlH65t4tsbhIuaoS3tA
+">Slides</a>
+<hr>
+<h4><i>Towards a Green Runtime Support for Parallel Applications</i></h4>
+<span>
+Seminar, Linkoping University, Jan 2017  <a class="btn btn-primary leftmargin" target="_blank" href="https://drive.google.com/open?id=1Z-XL338VFawnYkTxzPH5XiBBKg0x3XcG7ciws1CaExQ
+">Slides</a>
+<hr>
+<h4><i>Towards a Green Runtime Support for Parallel Applications</i></h4>
+<span>
+Seminar, Queen's University Belfast, Nov 2016  <a class="btn btn-primary leftmargin" target="_blank" href="https://drive.google.com/open?id=1QyiGNsRKcDR8fjC6KoHjUCuwdl-r1TwfHx9n2CVi-Kc
+">Slides</a>
+<hr>
+<h4><i>A Forest in the Fog</i></h4>
+<span>
+Through the Fog Project Meeting, University of Pisa, Dec 2015  <a class="btn btn-primary leftmargin" target="_blank" href="https://drive.google.com/open?id=1hQBB2WmYBeN5T3GiEAdNuIKiutYxlrEwU1oiLqT4iSE
+">Slides</a>
+<hr>
+<h4><i>Reducing Power Consumption of Parallel Applications</i></h4>
+<span>
+PhD Exam on 'Perspectives in Parallel Programming, University of Pisa, Nov 2015  <a class="btn btn-primary leftmargin" target="_blank" href="https://drive.google.com/open?id=1MTjDu5c__fXW4HvhUcNztZyfOkhu95WFow9AZtAeeHg
+">Slides</a>
+<hr>
+<h4><i>Opportunities for Energy Aware Computing</i></h4>
+<span>
+'Mauriana Pesaresi' Seminars, University of Pisa, Oct 2015  <a class="btn btn-primary leftmargin" target="_blank" href="https://drive.google.com/open?id=1fYNDMsSbrlQfAH3NzvuojfRowqQipJ1V8tagqwz6mqw
+">Slides</a>
+<hr>
+<h4><i>Parallelizing the Diameter Computation</i></h4>
+<span>
+PhD Exam on 'Algorithms for Big Data', University of Pisa, Oct 2015  <a class="btn btn-primary leftmargin" target="_blank" href="https://drive.google.com/open?id=1Q-alq76sBWTTn7B7IxPeiBIkXUCqUU5Vqj0WARmkZ4s
+">Slides</a>
+<hr>
+<h4><i>Energy Aware Parallel Block Compression</i></h4>
+<span>
+PhD Exam on 'Algorithms for Big Data', University of Pisa, Feb 2015  <a class="btn btn-primary leftmargin" target="_blank" href="https://drive.google.com/open?id=1EPBS3iwoEtGDEfiyZACNff6DuDPBeZfk9iCWDeA_sVw">Slides</a>
+<hr>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+    </div>
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
