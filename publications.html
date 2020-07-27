@@ -141,7 +141,7 @@ In <i>Energies</i> </br>
 <!-- ---------ENTRY END--------- -->
 <!-- ---------ENTRY START--------- -->
                                 <!-- Paper information -->
-                                A. {Conte} and D. {De Sensi} and R. {Grossi} and A. {Marino} and L. {Versari} <b>(2020)</b> </br> 
+                                Conte, A. and De Sensi, D. and Grossi, R. and Marino, A. and Versari, L. <b>(2020)</b> </br> 
                                 <b>Truly Scalable K-Truss and Max-Truss Algorithms for Community Detection in Graphs</b></br> 
 In <i>IEEE Access</i>, pp. 1-14 </br> 
 
@@ -166,7 +166,7 @@ In <i>IEEE Access</i>, pp. 1-14 </br>
                                    </a> 
                                    <div class="bibtex dropdown-menu" role="menu" aria-labelledby="dLabel">                                   @article{9146824,
     abstract = {The notion of k-truss has been introduced a decade ago in social network analysis and security for  community  detection,  as  a  form  of  cohesive  subgraphs  less  stringent  than  a  clique  (set  of  pairwise linked nodes), and more selective than a k-core (induced subgraph with minimum degreek). A k-truss is an inclusion-maximal subgraph H in which each edge belongs to at least k−2 triangles inside H. The truss decomposition establishes, for each edge e, the maximum k for which e belongs to a k-truss. Analogously to the largest clique and to the maximum k-core, the strongest community for k-truss is the max-truss, which corresponds to the k-truss having the maximum k. Even though the computation of truss decomposition and of the max-truss takes polynomial time, on a large scale, it suffers from handling a potentially cubic number of wedges. In this paper, we provide a new algorithm FMT, which advances the state of the art on different sides: lower execution time, lower memory usage, and no need for expensive hardware. We compare FMT experimentally with the most recent state-of-the-art algorithms on a set of large real-world and synthetic networks with over a billion edges. The massive improvement allows FMT to compute the max-truss of networks of tens of billions of edges on a single standard server machine.},
-    author = {A. {Conte} and D. {De Sensi} and R. {Grossi} and A. {Marino} and L. {Versari}},
+    author = {Conte, A. and De Sensi, D. and Grossi, R. and Marino, A. and Versari, L.},
     doi = {10.1109/ACCESS.2020.3011667},
     issn = {2169-3536},
     journal = {IEEE Access},
@@ -1032,6 +1032,19 @@ and Scott, Stephen L.},
                                 <b>Mitigating Network Noise on Dragonfly Networks Through Application-aware Routing</b></br> 
 In <i>Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis</i>, pp. 16:1--16:32 </br> 
 
+<!-- Dropdown Abstract --> 
+                               <div class="dropdown" style="float: left"> 
+                               <a class="btn btn-primary dropdown-toggle rightmargin" data-toggle="dropdown" href="#"> 
+                               Abstract 
+                               <span class="caret"></span> 
+                               </a> 
+                               <div class="abstract dropdown-menu" role="menu" aria-labelledby="dLabel"> 
+                               <i> 
+                               System noise can negatively impact the performance of HPC systems, and the interconnection network is one of the main factors contributing to this problem. To mitigate this effect, adaptive routing sends packets on non-minimal paths if they are less congested. However, while this may mitigate interference caused by congestion, it also generates more traffic since packets traverse additional hops, causing in turn congestion on other applications and on the application itself. In this paper, we first describe how to estimate network noise. By following these guidelines, we show how noise can be reduced by using routing algorithms which select minimal paths with a higher probability. We exploit this knowledge to design an algorithm which changes the probability of selecting minimal paths according to the application characteristics. We validate our solution on microbenchmarks and real-world applications on two systems relying on a Dragonfly interconnection network, showing noise reduction and performance improvement.
+                               </i> 
+                               </div> 
+                               </div> 
+
 <!-- Dropdown Bibtex --> 
                                    <div class="dropdown" style="float: left"> 
                                    <a class="btn btn-primary dropdown-toggle rightmargin" data-toggle="dropdown" href="#"> 
@@ -1039,6 +1052,7 @@ In <i>Proceedings of the International Conference for High Performance Computing
                                    <span class="caret"></span> 
                                    </a> 
                                    <div class="bibtex dropdown-menu" role="menu" aria-labelledby="dLabel">                                   @inproceedings{sc2019,
+    abstract = {System noise can negatively impact the performance of HPC systems, and the interconnection network is one of the main factors contributing to this problem. To mitigate this effect, adaptive routing sends packets on non-minimal paths if they are less congested. However, while this may mitigate interference caused by congestion, it also generates more traffic since packets traverse additional hops, causing in turn congestion on other applications and on the application itself. In this paper, we first describe how to estimate network noise. By following these guidelines, we show how noise can be reduced by using routing algorithms which select minimal paths with a higher probability. We exploit this knowledge to design an algorithm which changes the probability of selecting minimal paths according to the application characteristics. We validate our solution on microbenchmarks and real-world applications on two systems relying on a Dragonfly interconnection network, showing noise reduction and performance improvement.},
     acmid = {3356196},
     address = {New York, NY, USA},
     articleno = {16},
