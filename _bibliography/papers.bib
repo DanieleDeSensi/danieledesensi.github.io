@@ -1,84 +1,886 @@
----
----
+% Please, preserve year ordering
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{cloudnoise,
+  author = {De Sensi, Daniele and De Matteis, Tiziano and Taranov, Konstantin and Di Girolamo, Salvatore and Rahn, Tobias and Hoefler, Torsten},
+  title = {Noise in the Clouds: Influence of Network Performance Variability on Application Scalability},
+  year = {2022},
+  issue_date = {December 2022},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {6},
+  number = {3},
+  pdf={2022_CloudNoise.pdf},
+  doi = {10.1145/3570609},
+  abstract = {Cloud computing represents an appealing opportunity for cost-effective deployment of HPC workloads on the best-fitting hardware. However, although cloud and on-premise HPC systems offer similar computational resources, their network architecture and performance may differ significantly. For example, these systems use fundamentally different network transport and routing protocols, which may introduce \textit{network noise} that can eventually limit the application scaling. This work analyzes network performance, scalability, and cost of running HPC workloads on cloud systems. First, we consider latency, bandwidth, and collective communication patterns in detailed small-scale measurements, and then we simulate network performance at a larger scale. We validate our approach on four popular cloud providers and three on-premise HPC systems, showing that network (and also OS) noise can significantly impact performance and cost both at small and large scale.},
+  journal = {Proc. ACM Meas. Anal. Comput. Syst.},
+  month = {dec},
+  articleno = {49},
+  numpages = {27},
+  keywords = {cloud; HPC; network noise; scalability;},
+  code = {https://github.com/DanieleDeSensi/cloud_noise},
+  abbr = {SIGMETRICS23},
+  video = {https://www.youtube.com/watch?v=HnmaYN1kFIg},
+  arxiv = {https://arxiv.org/abs/2210.15315},
+  eprint = {2210.15315},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true},
+  selected = {true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{hxmesh,
+  author={Hoefler, Torsten and Bonato, Tommaso and De Sensi, Daniele and Di Girolamo, Salvatore and Li, Shigang and Heddes, Marco and Belk, Jon and Goel, Deepak and Castro, Miguel and Scott, Steve},
+  title={HammingMesh: A Network Topology for Large-Scale Deep Learning},
+  year={2022},
+  month={Nov.},
+  booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC'22)},
+  pdf={2022_HxMesh.pdf},
+  abstract={Numerous microarchitectural optimizations unlocked tremendous processing power for deep neural networks that in turn fueled the AI revolution. With the exhaustion of such optimizations, the growth of modern AI is now gated by the performance of training systems, especially their data movement. Instead of focusing on single accelerators, we investigate data-movement characteristics of large-scale training at full system scale. Based on our workload analysis, we design HammingMesh, a novel network topology that provides high bandwidth at low cost with high job scheduling flexibility. Specifically, HammingMesh can support full bandwidth and isolation to deep learning training jobs with two dimensions of parallelism. Furthermore, it also supports high global bandwidth for generic traffic. Thus, HammingMesh will power future large-scale deep learning systems with extreme bandwidth requirements.},
+  artifacts-available = {},
+  artifacts-functional = {},
+  results-reproduced = {},
+  award = {Best Reproducibility Advancement Award},
+  abbr = {SC22},
+  doi = {10.1109/sc41404.2022.00016},
+  bibtex_show = {true},
+  video = {https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIwOGQyOGQ5MDNhZWUzNmI0NDBiMmEwYzM1ZmNlMjViYSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjg5NzIwODc0fQ.Pjfc9DAKgkreSvnGOW7cNm4DLIp-8i6oa4AL3PuNmomG0FdOxOho0puvTry6hzr1xY42fUioVjSpFMNvaibCM3HAHW9y0ic5Vtvt_OrKI0-3klJvUX1--opKIB_N8dq0dehjsd1bneBOI8k8Mo9yi3TLGacS9-dim5LXBbEDz_BpgzaZBKw7_Fjw_Mm-Muz8ckG-J4NcMen16jjMpiVP6QZkzM5cQ1GU6fjQWx8pST-lS8-squoW1eLhs2tZrdBkq9LPs0oei8U3q8Ava5DNFjGClHqC8NDiOdACChNtSPi7oZio0cQmpGbQEQ0M-2B7e80az0AblVHnnzLtXYmGLA},
+  arxiv = {https://arxiv.org/abs/2209.01346},
+  eprint = {2209.01346},
+  code = {https://zenodo.org/record/6633910},
+  altmetric = {135606380},
+  dimensions = {true},
+  selected = {true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{spin-dfs,
+  author={Di Girolamo, Salvatore and De Sensi, Daniele and Taranov, Konstantin and Malesevic, Milos and Besta, Maciej and Schneider, Timo and Kistler, Severin and Hoefler, Torsten},
+  title={Building Blocks for Network-Accelerated Distributed File Systems},
+  year={2022},
+  month={Nov.},
+  booktitle={Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC'22)},
+  pdf={2022_SPIN-DFS.pdf},
+  abstract={High-performance clusters and datacenters pose increasingly demanding requirements on storage systems. If these systems do not operate at scale, applications are doomed to become I/O bound and waste compute cycles. To accelerate the data path to remote storage nodes, remote direct memory access (RDMA) has been embraced by storage systems to let data flow from the network to storage targets, reducing overall latency and CPU utilization. Yet, this approach still involves CPUs on the data path to enforce storage policies such as authentication, replication, and erasure coding. We show how storage policies can be offloaded to fully programmable SmartNICs, without involving host CPUs. By using PsPIN, an open-hardware SmartNIC, we show latency improvements for writes (up to 2x), data replication (up to 2x), and erasure coding (up to 2x), when compared to respective CPU- and RDMA-based alternatives.},
+  artifacts-available = {},
+  artifacts-functional = {},
+  results-reproduced = {},
+  abbr = {SC22},
+  bibtex_show = {true},
+  arxiv = {https://arxiv.org/abs/2206.10007},
+  video = {https://iframe.videodelivery.net/eyJraWQiOiI3YjgzNTg3NDZlNWJmNDM0MjY5YzEwZTYwMDg0ZjViYiIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4OTk2ZWUzZmYxNDBhYTJmY2M4MDI3ZjRkMzk5OTExYSIsImtpZCI6IjdiODM1ODc0NmU1YmY0MzQyNjljMTBlNjAwODRmNWJiIiwiZXhwIjoxNjg5NzIxMDQwfQ.2wP_8v6mBFpVhUV0Ogwb5P7sFUB3UQelozMfgb4lPcfV6MzqudwZ1Jk4e8QCJooy4O0g3VXbxPnIZBWK4vmUYcjqnWuB4EfafZ3CCLf24GfidXZ2R9pVfr5F3UOzvuA8AJOZxuhiKLo0tNbQxLdokyqFLe4qEDdU3iSqlGJH8OsV9jb6956n2cRbBesUVkqWuGI5FAe22aSZlRfO-SL3IVJUe_gT3qIoevhrIPvVi3yotA4WR2sLPwXTr0urLOYAt5Ro_NG21hFQ7QcKRnrUbcdfeeB08qOOubNoCRoBE9-jaU5-51_wQYai3nGy-fDB7FJ3_CcnbbFhk2IzzrHxzw},
+  code = {https://zenodo.org/record/6971893},
+  altmetric = {true},
+  dimensions = {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{ccs2022,
+  author={Taranov, Konstantin and Rothenberger, Benjamin and De Sensi, Daniele and Perrig, Adrian and Hoefler, Torsten},
+  title={NeVerMore: Exploiting RDMA Mistakes in NVMe-oF Storage Applications},
+  year={2022},
+  month={Nov.},
+  booktitle={Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security (CCS '22)},
+  pdf={2022_CCS.pdf},
+  abstract={This paper presents a security analysis of the InfiniBand architecture, a prevalent RDMA standard, and NVMe-over-Fabrics (NVMe-oF), a prominent protocol for industrial disaggregated storage that exploits RDMA protocols to achieve low-latency and high-bandwidth access to remote solid-state devices. Our work, NeVerMore, discovers new vulnerabilities in RDMA protocols that unveils several attack vectors on RDMA-enabled applications and the NVMe-oF protocol, showing that the current security mechanisms of the NVMe-oF protocol do not address the security vulnerabilities posed by the use of RDMA. In particular, we show how an unprivileged user can inject packets into any RDMA connection created on a local network controller, bypassing security mechanisms of the operating system and its kernel, and how the injection can be used to acquire unauthorized block access to NVMe-oF devices. Overall, we implement four attacks on RDMA protocols and seven attacks on the NVMe-oF protocol and verify them on the two most popular implementations of NVMe-oF: SPDK and the Linux kernel. To mitigate the discovered attacks we propose multiple mechanisms that can be implemented by RDMA and NVMe-oF providers.},
+  award={Honorable Mention Award},
+  abbr = {CCS22},
+  bibtex_show = {true},
+  arxiv = {https://arxiv.org/abs/2202.08080},
+  video = {https://www.youtube.com/watch?v=wDGfaPMgw1M},
+  altmetric = {true},
+  dimensions = {true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@ARTICLE {tpds2021,
+author = {Dichev, K. and De Sensi, D. and Nikolopoulos, D. S. and Cameron, K. W. and Spence, I.},
+journal = {IEEE Transactions on Parallel & Distributed Systems},
+title = {Power LognRoll: Power-Efficient Localized Rollback for MPI Applications Using Message Logging Protocols},
+year = {2021},
+volume = {},
+number = {01},
+issn = {1558-2183},
+pages = {1-1},
+keywords = {protocols;fault tolerant systems;fault tolerance;runtime;resilience;payloads;topology},
+doi = {10.1109/TPDS.2021.3107745},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+abstract = {In fault tolerance for parallel and distributed systems, message logging protocols have played a prominent role in the last three decades. Such protocols enable local rollback to provide recovery from fail-stop errors. Global rollback techniques can be straightforward to implement but at times lead to slower recovery than local rollback. Local rollback is more complicated but can offer faster recovery times. In this work, we study the power and energy efficiency implications of global and local rollback. We propose a power-efficient version of local rollback to reduce power consumption for non-critical, blocked processes, using Dynamic Voltage and Frequency Scaling (DVFS) and clock modulation (CM). Our results for 3 different MPI codes on 2 parallel systems show that power-efficient local rollback reduces CPU energy waste up to 50\% during the recovery phase, compared to existing global and local rollback techniques, without introducing significant overheads. Furthermore, we show that savings manifest for all blocked processes, which grow linearly with the process count. We estimate that for settings with high recovery overheads the total energy waste of parallel codes is reduced with the proposed local rollback.},
+url={https://www.computer.org/csdl/journal/td/5555/01/09524502/1wpqI1H5fqg},
+month = {aug},
+abbr = {TPDS},
+bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+%%%%%%%%% 2020 %%%%%%%%%%%
+@inproceedings{flare,
+author = {De Sensi, Daniele and Di Girolamo, Salvatore and Ashkboos, Saleh and Li, Shigang and Hoefler, Torsten},
+title = {Flare: Flexible in-Network Allreduce},
+year = {2021},
+isbn = {9781450384421},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3458817.3476178},
+doi = {10.1145/3458817.3476178},
+abstract = {The allreduce operation is one of the most commonly used communication routines in distributed applications. To improve its bandwidth and to reduce network traffic, this operation can be accelerated by offloading it to network switches, that aggregate the data received from the hosts, and send them back the aggregated result. However, existing solutions provide limited customization opportunities and might provide suboptimal performance when dealing with custom operators and data types, with sparse data, or when reproducibility of the aggregation is a concern. To deal with these problems, in this work we design a flexible programmable switch by using as a building block PsPIN, a RISC-V architecture implementing the sPIN programming model. We then design, model, and analyze different algorithms for executing the aggregation on this architecture, showing performance improvements compared to state-of-the-art approaches.},
+booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+articleno = {35},
+numpages = {16},
+keywords = {allreduce, programmable switch, in-network computing},
+location = {St. Louis, Missouri},
+series = {SC '21},
+pdf={2021_SC.pdf},
+artifacts-available = {},
+artifacts-functional = {},
+results-reproduced = {},
+slides = {2021_SC_Slides.pdf},
+video = {https://www.youtube.com/watch?v=gGPmnI-cJvE},
+arxiv = {https://arxiv.org/abs/2106.15565},
+  abbr = {SC21},
+  bibtex_show = {true},
+  code = {https://zenodo.org/record/5497881},
+  altmetric = {true},
+  dimensions = {true},
+  selected = {true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{sc2020,
+author = {De Sensi, Daniele and Di Girolamo, Salvatore and McMahon, Kim H. and Roweth, Duncan and Hoefler, Torsten},
+title = {An In-Depth Analysis of the Slingshot Interconnect},
+year = {2020},
+isbn = {9781728199986},
+pdf={2020_SC.pdf},
+openaccess={https://www.computer.org/csdl/pds/api/csdl/proceedings/download-article/1oeOSxC05Og/pdf},
+url={https://dl.acm.org/doi/abs/10.5555/3433701.3433747},
+slides={https://docs.google.com/presentation/d/1Gdn9w2zbZzO4bh34UHsC6TTqulHdGk3Hs7BLdKJuf6s/edit?usp=sharing},
+video={https://www.youtube.com/watch?v=z4GAr5cud7g},
+publisher = {IEEE Press},
+abstract = {The interconnect is one of the most critical components in large scale computing systems, and its impact on the performance of applications is going to increase with the system size. In this paper, we will describe Slingshot, an interconnection network for large scale computing systems. Slingshot is based on high-radix switches, which allow building exascale and hyper-scale datacenters networks with at most three switch-to-switch hops. Moreover, Slingshot provides efficient adaptive routing and congestion control algorithms, and highly tunable traffic classes. Slingshot uses an optimized Ethernet protocol, which allows it to be interoperable with standard Ethernet devices while providing high performance to HPC applications. We analyze the extent to which Slingshot provides these features, evaluating it on microbenchmarks and on several applications from the datacenter and AI worlds, as well as on HPC applications. We find that applications running on Slingshot are less affected by congestion compared to previous generation networks.},
+booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+articleno = {35},
+numpages = {14},
+keywords = {dragonfly, exascale, interconnection network, congestion, datacenters},
+location = {Atlanta, Georgia},
+series = {SC '20},
+doi = {10.1109/sc41405.2020.00039},
+arxiv = {https://arxiv.org/abs/2008.08886},
+  abbr = {SC20},
+  bibtex_show = {true},
+  code = {https://zenodo.org/record/3878690},
+  altmetric = {true},
+  dimensions = {true},
+  selected = {true}
+}
+
+
+@article{energies_dem,
+  author="Coutinho, Demetrios A. M. and De Sensi, Daniele and Lorenzon, Arthur Francisco and Georgiou, Kyriakos and Nunez-Yanez, Jose and Eder, Kerstin and Xavier-de-Souza, Samuel",
+  title=" Performance and Energy Trade-Offs for Parallel Applications on Heterogeneous Multi-Processing",
+  journal="Energies",
+  year="2020",
+  abstract="This work proposes a methodology to find performance and energy trade-offs for parallel applications running on single ISA Heterogeneous Multi-Processing (HMP) systems. These offer flexibility in the form of different core types and voltage and frequency pairings, defining a vast design space exploration. Therefore, for a given application, choosing a configuration to optimize the performance and energy consumption is not straightforward. Our method proposes novel analytic models for performance and power consumption whose parameters can be fitted using only a few sampled off-line measurements. These models are then used to estimate an application’s performance and energy consumption for the whole configuration space. In turn, these off-line predictions define the choice of estimated Pareto-optimal configurations of the model, which are used to inform the selection of the configuration that the application should be executed on. The methodology was validated on an ODROID-XU3 board for eight programs from the PARSEC Benchmark, Phoronix Test Suite and Rodinia applications. The generated Pareto-optimal configuration space represented an overall reduction of nearly 99% from the universe of all available configurations. Energy savings of up to 59.77%, 61.38% and 17.7% were observed when compared to the 'performance', 'ondemand' and 'powersave' Linux governors, respectively, with better or similar performance.",
+  openaccess="https://www.mdpi.com/1996-1073/13/9/2409",
+  pdf="https://www.mdpi.com/1996-1073/13/9/2409/pdf",
+  doi="10.3390/en13092409",
+  bibtex_show = true,
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@ARTICLE{9146824,
+  author={Conte, A. and De Sensi, D. and Grossi, R. and Marino, A. and Versari, L.},
+  journal={IEEE Access}, 
+  title={Truly Scalable K-Truss and Max-Truss Algorithms for Community Detection in Graphs}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-14},
+  openaccess={https://ieeexplore.ieee.org/document/9146824},
+  doi={10.1109/ACCESS.2020.3011667},
+  issn={2169-3536},
+  abstract={The notion of k-truss has been introduced a decade ago in social network analysis and security for  community  detection,  as  a  form  of  cohesive  subgraphs  less  stringent  than  a  clique  (set  of  pairwise linked nodes), and more selective than a k-core (induced subgraph with minimum degreek). A k-truss is an inclusion-maximal subgraph H in which each edge belongs to at least k−2 triangles inside H. The truss decomposition establishes, for each edge e, the maximum k for which e belongs to a k-truss. Analogously to the largest clique and to the maximum k-core, the strongest community for k-truss is the max-truss, which corresponds to the k-truss having the maximum k. Even though the computation of truss decomposition and of the max-truss takes polynomial time, on a large scale, it suffers from handling a potentially cubic number of wedges. In this paper, we provide a new algorithm FMT, which advances the state of the art on different sides: lower execution time, lower memory usage, and no need for expensive hardware. We compare FMT experimentally with the most recent state-of-the-art algorithms on a set of large real-world and synthetic networks with over a billion edges. The massive improvement allows FMT to compute the max-truss of networks of tens of billions of edges on a single standard server machine.},
+  abbr = {Access},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+ }
+
+@article{ijpp_caf,
+  author="Rinaldi, Luca and Torquati, Massimo and De Sensi, Daniele and Mencagli, Gabriele and Danelutto, Marco",
+  title="Improving the performance of Actors on Multi-Cores with Parallel Patterns",
+  journal="International Journal of Parallel Programming",
+  year="2020",
+  abstract="The Actor-based programming model is largely used in the context of distributed systems for its message-passing semantics and neat separation between the concurrency model and the underlying HW platform. However, in the context of a single multi-core node where the performance metric is the primary optimization objective, the 'pure' Actor Model is generally not used because Actors cannot exploit the physical shared-memory, thus reducing the optimization options. In this work, we propose to enrich the Actor Model with some well-known Parallel Patterns to face the  performance issues of using the 'pure' Actor Model on a single multi-core platform. In the experimental study, conducted on two different multi-core systems by using the C++ Actor Framework (CAF), we considered a subset of the Parsec benchmarks and two Savina benchmarks. The analysis of results demonstrates that the Actor Model enriched with suitable Parallel Patterns implementations provides a robust abstraction layer capable of delivering performance results comparable with those of thread-based libraries (i.e. Pthreads and FastFlow) while offering a safer and versatile programming environment.",
+  doi="10.1007/s10766-020-00663-1",
+  url="https://doi.org/10.1007/s10766-020-00663-1",
+  pdf="2020_IJPP.pdf",
+  bibtex_show = "true",
+  altmetric = {true},
+  dimensions = {true}
+}
+
+%%%%%%%%% 2019 %%%%%%%%%%%
+@InProceedings{ppam2019,
+author="De Sensi, Daniele
+and Danelutto, Marco",
+editor="Wyrzykowski, Roman
+and Deelman, Ewa
+and Dongarra, Jack
+and Karczewski, Konrad",
+title="Application-Aware Power Capping Using Nornir",
+booktitle="Parallel Processing and Applied Mathematics",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="191--202",
+abstract="Power consumption of IT infrastructure is a major concern for data centre operators. Since data centres power supply is usually dimensioned for an average-case scenario, uncorrelated and simultaneous power spikes in multiple servers could lead to catastrophic effects such as power outages. To avoid such situations, power capping solutions are usually put in place by data centre operators, to control power consumption of individual server and to avoid the datacenter exceeding safe operational limits. However, most power capping solutions rely on Dynamic Voltage and Frequency Scaling (DVFS), which is not always able to guarantee the power cap specified by the user, especially for low power budget values. In this work, we propose a power-capping algorithm that uses a combination of DVFS and Thread Packing. We implement this algorithm in the Nornir framework and we validate it on some real applications by comparing it to the Intel RAPL power capping algorithm and another state of the art power capping algorithm.",
+isbn="978-3-030-43222-5",
+slides="https://docs.google.com/presentation/d/1pIPrQk3HWW5zhdGM1ywM2o7AGbV_TOHfGkMSwfmqtcM/edit?usp=sharing",
+pdf="2019_PPAM.pdf",
+url="https://link.springer.com/chapter/10.1007/978-3-030-43222-5_17",
+doi="10.1007/978-3-030-43222-5_17",
+bibtex_show = "true",
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@InProceedings{autodasp2019,
+author="De Sensi, Daniele
+and Danelutto, Marco",
+editor="Schwardmann, Ulrich
+and Boehme, Christian
+and B. Heras, Dora
+and Cardellini, Valeria
+and Jeannot, Emmanuel
+and Salis, Antonio
+and Schifanella, Claudio
+and Manumachu, Ravi Reddy
+and Schwamborn, Dieter
+and Ricci, Laura
+and Sangyoon, Oh
+and Gruber, Thomas
+and Antonelli, Laura
+and Scott, Stephen L.",
+title="Transparent Autonomicity for OpenMP Applications",
+booktitle="Euro-Par 2019: Parallel Processing Workshops",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="54--64",
+abstract="One of the key needs of an autonomic computing system is the ability to monitor the application performance with minimal intrusiveness and performance overhead. Several solutions have been proposed, differing in terms of effort required by the application programmers to add autonomic capabilities to their applications. In this work we extend the Nornir autonomic framework, allowing it to transparently monitor OpenMP applications thanks to the novel OpenMP Tools (OMPT) API. By using this interface, we are able to transparently transfer performance monitoring information from the application to the Nornir framework. This does not require any manual intervention by the programmer, which can seamlessly control an already existing application, enforcing any performance and/or power consumption requirement. We evaluate our approach on some real applications from the PARSEC and NAS benchmarks, showing that our solution introduces a negligible performance overhead, while being able to correctly control applications' performance and power consumption.",
+isbn="978-3-030-48340-1",
+pdf="2019_AutoDasp.pdf",
+slides="https://docs.google.com/presentation/d/1GyUVj0YvF3tQhKH_zQEsM4_stQcR5srvUxHQsR8xfBk/edit?usp=sharing",
+url="https://link.springer.com/chapter/10.1007%2F978-3-030-48340-1_5",
+doi="10.1007/978-3-030-48340-1_5",
+bibtex_show="true",
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@inproceedings{sc2019,
+ author = {De Sensi, Daniele and Di Girolamo, Salvatore and Hoefler, Torsten},
+ title = {Mitigating Network Noise on Dragonfly Networks Through Application-aware Routing},
+ booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+ series = {SC '19},
+ year = {2019},
+ isbn = {978-1-4503-6229-0},
+ location = {Denver, Colorado},
+ pages = {16:1--16:32},
+ articleno = {16},
+ numpages = {32},
+ url = {http://doi.acm.org/10.1145/3295500.3356196},
+ doi = {10.1145/3295500.3356196},
+ acmid = {3356196},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {dragonfly, network noise, routing},
+ slides={https://docs.google.com/presentation/d/1XhnwR6oCBFMbrIWTHRqUVK6Yf4GGwRjOj1UX2nR-hcA/edit?usp=sharing},
+ openaccess={https://dl.acm.org/authorize?N690645},
+ pdf={2019_SC.pdf},
+ video={https://www.youtube.com/watch?v=42bzBHx2bWE},
+ abstract={System noise can negatively impact the performance of HPC systems, and the interconnection network is one of the main factors contributing to this problem. To mitigate this effect, adaptive routing sends packets on non-minimal paths if they are less congested. However, while this may mitigate interference caused by congestion, it also generates more traffic since packets traverse additional hops, causing in turn congestion on other applications and on the application itself. In this paper, we first describe how to estimate network noise. By following these guidelines, we show how noise can be reduced by using routing algorithms which select minimal paths with a higher probability. We exploit this knowledge to design an algorithm which changes the probability of selecting minimal paths according to the application characteristics. We validate our solution on microbenchmarks and real-world applications on two systems relying on a Dragonfly interconnection network, showing noise reduction and performance improvement.},
+ abbr = {SC19},
+ arxiv = {https://arxiv.org/abs/1909.07865},
+ bibtex_show = {true},
+ code = {https://zenodo.org/record/3372789},
+  altmetric = {true},
+  dimensions = {true},
+  selected = {true}
+}
+
+@INPROCEEDINGS{hpcs2019,
+   author = {Danelutto, Marco and De Sensi, Daniele and Mencagli, Gabriele and Torquati, Massimo},
+   booktitle={High Performance Computing Simulation (HPCS), 2019 International Conference on},
+   title={Autonomic Management Experiences in Structured Parallel Programming},
+   year={2019},
+   month={July},
+   address={Dublin, Ireland},
+   url={https://ieeexplore.ieee.org/document/9188228},
+   abstract = {Structured parallel programming models based on parallel design patterns are gaining more and more importance. Several state-of-the-art industrial frameworks build on the  parallel design pattern concept, including Intel TBB and Microsoft PPL. In these frameworks, the explicit exposition of parallel structure of the application favours the identification of the inefficiencies, the exploitation of techniques increasing the efficiency of the implementation and ensures that most of the more critical aspects related to an efficient exploitation of the available parallelism are moved from application programmers to framework designers.
+   The very same exposition of the graph representing the parallel activities enables framework designers to emplace efficient autonomic management of non functional concerns, such as performance tuning or power management.
+   In this paper, we discuss how autonomic management features evolved in different structured parallel programming frameworks based on the algorithmic skeletons and parallel design patterns.
+   We show that different levels of autonomic management are possible, ranging from simple provisioning of mechanisms suitable to support programmers in the implementation of ad hoc autonomic managers to the complete autonomic managers whose behaviour may be programmed using high level rules by the application programmers. },
+   pdf = {2019_HPCS.pdf},
+   doi={10.1109/HPCS48598.2019.9188228},
+   pages={336-343},
+   bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}			   
+
+@Article{Griebler2019,
+author="Griebler, Dalvan
+and Vogel, Adriano
+and De Sensi, Daniele
+and Danelutto, Marco
+and Fernandes, Luiz G.",
+title="Simplifying and implementing service level objectives for stream parallelism",
+journal="The Journal of Supercomputing",
+year="2019",
+month="Jun",
+day="05",
+pages="1-26",
+abstract="An increasing attention has been given to provide service level objectives (SLOs) in stream processing applications due to the performance and energy requirements, and because of the need to impose limits in terms of resource usage while improving the system utilization. Since the current and next-generation computing systems are intrinsically offering parallel architectures, the software has to naturally exploit the architecture parallelism. Implement and meet SLOs on existing applications is not a trivial task for application programmers, since the software development process, besides the parallelism exploitation, requires the implementation of autonomic algorithms or strategies. This is a system-oriented programming approach and requires the management of multiple knobs and sensors (e.g., the number of threads to use, the clock frequency of the cores, etc.) so that the system can self-adapt at runtime. In this work, we introduce a new and simpler way to define SLO in the application's source code, by abstracting from the programmer all the details relative to self-adaptive system implementation. The application programmer specifies which parts of the code to parallelize and the related SLOs that should be enforced. To reach this goal, source-to-source code transformation rules are implemented in our compiler, which automatically generates self-adaptive strategies to enforce, at runtime, the user-expressed objectives. The experiments highlighted promising results with simpler, effective, and efficient SLO implementations for real-world applications.",
+issn="1573-0484",
+doi="10.1007/s11227-019-02914-6",
+url="https://doi.org/10.1007/s11227-019-02914-6",
+pdf="2019_JSC.pdf",
+bibtex_show = "true",
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@ARTICLE{8688411,
+author={De Matteis, Tiziano and Mencagli, Gabriele and De Sensi, Daniele and Torquati, Massimo and Danelutto, Marco},
+journal={IEEE Access},
+title={GASSER: An Auto-Tunable System for General Sliding-Window Streaming Operators on GPUs},
+year={2019},
+volume={7},
+number={},
+pages={48753-48769},
+keywords={graphics processing units;optimisation;parallel processing;query processing;popular streaming system;scalable streaming system;completely general queries;incremental queries;GASSER;auto-tunable system;general sliding-window streaming operators;stream processing systems;high-volume data streams;commodity machines;distributed architectures;coprocessors;performance efficiency;data stream;parallelism;configuration parameters;optimal value;graphical processing units;data-parallel tasks;GPU processing;different processing models;streaming paradigm advocates;tuple-at-a-time processing model;sliding-window operators;completely general functions;parallel processing;nonincremental queries;existing GPU-based;auto-tuning approach;Microsoft Windows;Graphics processing units;Parallel processing;Throughput;Windows;Task analysis;Prototypes;Data stream processing;sliding-window queries;GPU processing;autotuning;self-configuring systems},
+doi={10.1109/ACCESS.2019.2910312},
+ISSN={2169-3536},
+month={},
+openaccess={https://ieeexplore.ieee.org/document/8688411},
+abstract={Today's stream processing systems handle high-volume data streams in an efficient manner. To achieve this goal, they are designed to scale out on large clusters of commodity machines. However, despite the efficient use of distributed architectures, they lack support to co-processors like graphical processing units (GPUs) ready to accelerate data-parallel tasks. The main reason for this lack of integration is that GPU processing and the streaming paradigm have different processing models, with GPUs needing a bulk of data present at once while the streaming paradigm advocates a tuple-at-a-time processing model. This paper contributes to fill this gap by proposing Gasser, a system for offloading the execution of sliding-window operators on GPUs. The system focuses on completely general functions by targeting the parallel processing of non-incremental queries that are not supported by the few existing GPU-based streaming prototypes. Furthermore, Gasser provides an auto-tuning approach able to automatically find the optimal value of the configuration parameters (i.e., batch length and the degree of parallelism) needed to optimize throughput and latency with the given query and data stream. The experimental part assesses the performance efficiency of Gasser by comparing its peak throughput and latency against Apache Flink, a popular and scalable streaming system. Furthermore, we evaluate the penalty induced by supporting completely general queries against the performance achieved by the state-of-the-art solution specifically optimized for incremental queries. Finally, we show the speed and accuracy of the auto-tuning approach adopted by Gasser, which is able to self-configure the system by finding the right configuration parameters without manual tuning by the users.},
+abbr = {Access},
+bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+
+%%%%%%%%% 2018 %%%%%%%%%%%
+@INPROCEEDINGS{8547735,
+author={Conte, Alessio and De Sensi, Daniele and Grossi, Roberto and Marino, Andrea and Versari, Luca},
+abstract={A k-truss is a subgraph where every edge belongs to at least k-2 triangles in the subgraph. The truss decomposition assigns each edge the maximum k for which the edge belongs to a k-truss, and the trussness of a graph is the maximum among its edges. Discovery algorithms for k-trusses and truss decomposition provide useful insight for graph analytics (such as community detection). Even though they take polynomial time, on massive networks they suffer from handling a potentially cubic number of wedges: algorithms either need a long time to recompute triangles several times, have high memory usage, or rely on the large number of cores on graphic units. In this paper we describe EXTRUS, a highly optimized algorithm for truss decomposition which outperforms existing algorithms. We then introduce a faster algorithm, HYBTRUS, which finds the trussness of a graph using less time and space than EXTRUSS. Our algorithms take the best of existing approaches having good performance, low memory usage, and no need for sophisticated hardware systems.
+We compare our algorithms with the state-of-the-art on a set of real-world and synthetic networks. EXTRUSS processes graphs with over a billion edges, which seems difficult for the competitors, and our HYBTRUSS is the first algorithm able to find the trussness of a graph with over 25 billion edges.},
+booktitle={2018 IEEE High Performance extreme Computing Conference (HPEC)},
+title={Discovering k-Trusses in Large-Scale Networks},
+year={2018},
+volume={},
+number={},
+pages={1-6},
+keywords={graph theory;network theory (graphs);trussness;large-scale networks;subgraph;truss decomposition assigns;discovery algorithms;graph analytics;polynomial time;massive networks;high memory usage;EXTRUSS;k-trusses;HYBTRUSS;Approximation algorithms;Data structures;Image edge detection;Hardware;Indexes;Switches;Informatics;k-trusses;truss decomposition;graph algorithms;HPEC 2018 graph challenge},
+doi={10.1109/HPEC.2018.8547735},
+ISSN={2377-6943},
+award={IEEE HPEC Graph Challenge Finalist},
+pdf = "2018_HPEC.pdf",
+month={Sep.},
+url={https://ieeexplore.ieee.org/document/8547735},
+bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@InProceedings{spar:nornir,
+author="Griebler, Dalvan and De Sensi, Daniele and Vogel, Adriano and Danelutto, Marco and Fernandes, Luiz Gustavo",
+title="Service Level Objectives via C++11 Attributes",
+booktitle="Euro-Par 2018: Parallel Processing Workshops",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="745--756",
+abstract="In recent years, increasing attention has been given to the possibility of guaranteeing Service Level Objectives (SLOs) to users about their applications, either regarding performance or power consumption. SLO can be implemented for parallel applications since they can provide many control knobs (e.g., the number of threads to use, the clock frequency of the cores, etc.) to tune the performance and power consumption of the application. Different from most of the existing approaches, we target sequential stream processing applications by proposing a solution based on C++ annotations. The user specifies which parts of the code to parallelize and what type of requirements should be enforced on that part of the code. Our solution first automatically parallelizes the annotated code and then applies self-adaptation approaches at run-time to enforce the user-expressed objectives. We ran experiments on different real-world applications, showing its simplicity and effectiveness.",
+isbn="978-3-030-10549-5",
+slides = "https://docs.google.com/presentation/d/1dv0mdCjP-n0QIDFoEiX61I2mCdLpFE0EFbWdaJZ0iEA/edit?usp=sharing",
+pdf = "2018_REPARA.pdf",
+url = "https://link.springer.com/chapter/10.1007%2F978-3-030-10549-5_58",
+bibtex_show = "true",
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@InProceedings{spar:latency,
+author="Vogel, Adriano
+and Griebler, Dalvan
+and De Sensi, Daniele
+and Danelutto, Marco
+and Fernandes, Luiz Gustavo",
+title="Autonomic and Latency-Aware Degree of Parallelism Management in SPar",
+booktitle="Euro-Par 2018: Parallel Processing Workshops",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="28--39",
+abstract="Stream processing applications became a representative workload in current computing systems. A significant part of these applications demands parallelism to increase performance. However, programmers are often facing a trade-off between coding productivity and performance when introducing parallelism. SPar was created for balancing this trade-off to the application programmers by using the C++11 attributes' annotation mechanism. In SPar and other programming frameworks for stream processing applications, the manual definition of the number of replicas to be used for the stream operators is a challenge. In addition to that, low latency is required by several stream processing applications. We noted that explicit latency requirements are poorly considered on the state-of-the-art parallel programming frameworks. Since there is a direct relationship between the number of replicas and the latency of the application, in this work we propose an autonomic and adaptive strategy to choose the proper number of replicas in SPar to address latency constraints. We experimentally evaluated our implemented strategy and demonstrated its effectiveness on a real-world application, demonstrating that our adaptive strategy can provide higher abstraction levels while automatically managing the latency.",
+isbn="978-3-030-10549-5",
+pdf = "2018_AutoDasp.pdf",
+url ="https://link.springer.com/chapter/10.1007%2F978-3-030-10549-5_3",
+bibtex_show = "true",
+  altmetric = {true},
+  dimensions = {true}
+}
+
+
+
+@article{nornir:fgcs18,
+  title = {Simplifying self-adaptive and power-aware computing with Nornir},
+  journal = {Future Generation Computer Systems},
+  volume = {},
+  number = {},
+  pages = { - },
+  year = {2018},
+  note = {},
+  issn = {0167-739X},
+  doi = {https://doi.org/10.1016/j.future.2018.05.012},
+  url = {https://www.sciencedirect.com/science/article/pii/S0167739X17326699},
+  pdf = {2018_FGCS.pdf},
+  author = {De Sensi, Daniele and De Matteis, Tiziano and Danelutto, Marco},
+  keywords = {Self-adaptive, Power-aware, Quality of service, Data stream processing, Fog computing, Parallel computing},
+  abstract = {Self-adaptation is an emerging requirement in parallel computing. It enables the dynamic selection of resources toallocate to the application in order to meet performance and power consumption requirements. This is particularly relevant in Fog Applications, where data is generated by a number of devices at a varying rate, according to users’ activity. By dynamically selecting the appropriate number of resources it is possible, for example, to use at each time step the minimum amount of resources needed to process the incoming data. Implementing such kind of algorithms may be a complex task, due to low-level interactions with the underlying hardware and to non-intrusive and low-overhead monitoring of the applications. For these reasons, in this paper we propose Nornir, a C++-based framework, which can be used to enforce performance and power consumption constraints on parallel applications running on shared memory multicores. The framework can be easily customized by algorithm designers to implement new self-adaptive policies. By instrumenting the applications in the \{PARSEC\} benchmark, we provide to strategy designers a wide set of applications already interfaced to Nornir. In addition to this, to prove its flexibility, we implemented and compared several state-of-the-art existing policies, showing that Nornir can also be used to easily analyze different algorithms and to provide useful insights on them.},
+  abbr = {FGCS},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+			    
+@inproceedings{kdd:18,
+ author = {Conte, Alessio and De Matteis, Tiziano and De Sensi, Daniele and Grossi, Roberto and Marino, Andrea and Versari, Luca},
+ title = {D2K: Scalable Community Detection in Massive Networks via Small-Diameter k-Plexes},
+ booktitle = {Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \&\#38; Data Mining},
+ series = {KDD '18},
+ year = {2018},
+ isbn = {978-1-4503-5552-0},
+ location = {London, United Kingdom},
+ pages = {1272--1281},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/3219819.3220093},
+ doi = {10.1145/3219819.3220093},
+ acmid = {3220093},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {community discovery, graph enumeration, k-plexes, parallel programming},
+ openaccess = {https://dl.acm.org/authorize?N666390},
+ abstract = {This paper studies kplexes, a well known pseudo-clique model for network communities. In a kplex, each node can miss at most $k-1$ links. Our goal is to detect large communities in today's real-world graphs which can have hundreds of millions of edges. While many have tried, this task has been elusive so far due to its computationally challenging nature: kplexes and other pseudo-cliques are harder to find and more numerous than cliques, a well known hard problem. We present D2K, which is the first algorithm able to find large kplexes of very large graphs in just a few minutes. The good performance of our algorithm follows from a combination of graph-theoretical concepts, careful algorithm engineering and a high-performance implementation. In particular, we exploit the low degeneracy of real-world graphs, and the fact that large enough kplexes have diameter~2. We validate a sequential and a parallel/distributed implementation of D2K on real graphs with up to half a billion edges.},
+ video = {https://www.youtube.com/watch?v=zF2Hz1wq9eM},
+ pdf = {2018_KDD.pdf},
+ abbr = {KDD18},
+bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+	       
+
+@article{ccpe2018,
+ author = {Torquati, Massimo and De Sensi, Daniele and Mencagli, Gabriele and Aldinucci, Marco and Danelutto, Marco},
+ title = {Power-aware pipelining with automatic concurrency control},
+ journal = {Concurrency and Computation: Practice and Experience},
+ volume = {0},
+ number = {0},
+ year = {2018},
+ pages = {e4652},
+ keywords = {blocking, concurrency control, data pipelining, data streams, multicores, power saving},
+ doi = {10.1002/cpe.4652},
+ url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.4652},
+ pdf = {2018_CCPE.pdf},
+ eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.4652},
+ note = {e4652 cpe.4652},
+ abstract = {Continuous streaming computations are usually composed of different modules, exchanging data through shared message queues. The selection of the algorithm used to access such queues (i.e. the "concurrency control") is a critical aspect both for performance and power consumption. In this paper we describe the design of automatic concurrency control algorithm for implementing power-efficient communications on shared-memory multicores. The algorithm automatically switches between "nonblocking" and "blocking" concurrency protocols, getting the best from the two worlds, i.e. obtaining the same throughput offered by the "nonblocking" implementation and the same power efficiency of the "blocking" concurrency protocol. We demonstrate the effectiveness of our approach using two micro-benchmarks and two real streaming applications.},
+ bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}				 
+
+@INPROCEEDINGS{cafpdp18,
+abstract = {In this work, we consider the C++ Actor Framework (CAF), a recent proposal that revamped the interest in building concurrent and distributed applicaions using the actor programming model in C++. CAF has been optimized for high-throughput computing, whereas message latency between actors is greatly influenced by the message data rate: at low and moderate rates the latency is higher than at high data rates. To this end, we propose a modification of the polling strategies in the work-stealing CAF scheduler, which can reduce message latency at low and moderate data rates up to two orders of magnitude without compromising the overall throughput and message latency at maximum pressure. The technique proposed uses a lightweight event notification protocol that is general enough to be used used to optimize the runtime of other frameworks experiencing similar issues.},
+author={Torquati, Massimo and Menga, Tullio and De Matteis, Tiziano and De Sensi, Daniele and Mencagli, Gabriele},
+booktitle={2018 26th Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP)},
+title={Reducing Message Latency and CPU Utilization in the CAF Actor Framework},
+year={2018},
+volume={},
+number={},
+pages={145-153},
+keywords={C++ languages;Computational modeling;Message systems;Power demand;Programming;Runtime;Throughput;Actor model;CAF;message latency;multi-cores;polling strategies;work-stealing},
+doi={10.1109/PDP2018.2018.00028},
+ISSN={},
+month={March},
+pdf = {2018_PDP.pdf},
+url = {https://ieeexplore.ieee.org/abstract/document/8374451/},
+bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+
+%%%%%%%% 2017 %%%%%%%%%%%%
+
+
+
+@inproceedings{scphd:17,
+    address = {Denver, Colorado, US},
+    author = {De Sensi, Daniele and Danelutto, Marco and Torquati, Massimo},
+    booktitle = {Supercomputing Doctoral Showcase},
+    title = {Nornir: A Power-Aware Runtime Support for Parallel Applications},
+    poster = {assets/img/2017_Supercomputing.png},
+    slides = {https://docs.google.com/presentation/d/1O1jKbjiW8jOUTo2gl38b0UFLWrJZKF4C4HjwXNdykN8/edit?usp=sharing},
+    year = {2017},
+    month = {Nov},
+    pages = {},
+    bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+
+@Article{rephrase:ijpp17,
+author="Danelutto, Marco
+and De Matteis, Tiziano
+and De Sensi, Daniele
+and Mencagli, Gabriele
+and Torquati, Massimo
+and Aldinucci, Marco
+and Kilpatrick, Peter",
+title="The RePhrase Extended Pattern Set for Data Intensive Parallel Computing",
+journal="International Journal of Parallel Programming",
+year="2017",
+month="Nov",
+day="28",
+abstract="We discuss the extended parallel pattern set identified within the EU-funded project RePhrase as a candidate pattern set to support data intensive applications targeting heterogeneous architectures. The set has been designed to include three classes of pattern, namely (1) core patterns, modelling common, not necessarily data intensive parallelism exploitation patterns, usually to be used in composition; (2) high level patterns, modelling common, complex and complete parallelism exploitation patterns; and (3) building block patterns, modelling the single components of data intensive applications, suitable for use---in composition---to implement patterns not covered by the core and high level patterns. We discuss the expressive power of the RePhrase extended pattern set and results illustrating the performances that may be achieved with the FastFlow implementation of the high level patterns.",
+issn="1573-7640",
+doi="10.1007/s10766-017-0540-z",
+openaccess="http://rdcu.be/zN6c",
+url="https://doi.org/10.1007/s10766-017-0540-z",
+pages="74–93",
+bibtex_show = "true",
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@InProceedings{nornir:autodasp17,
+author="De Sensi, Daniele
+and De Matteis, Tiziano
+and Danelutto, Marco",
+editor="Heras, Dora B.
+and Bouge, Luc",
+title="Nornir: A Customizable Framework for Autonomic and Power-Aware Applications",
+booktitle="Euro-Par 2017: Parallel Processing Workshops",
+year="2018",
+publisher="Springer International Publishing",
+pages="42--54",
+abstract="A desirable characteristic of modern parallel applications is the ability to dynamically select the amount of resources to be used to meet requirements on performance or power consumption. In many cases, providing explicit guarantees on performance is of paramount importance. In streaming applications, this is related with the concept of elasticity, i.e. being able to allocate the proper amount of resources to match the current demand as closely as possible. Similarly, in other scenarios, it may be useful to limit the maximum power consumption of an application to do not exceed the power budget. In this paper we propose Nornir, a customizable C++ framework for autonomic and power-aware parallel applications on shared memory multicore machines. Nornir can be used by autonomic strategy designers to implement new algorithms and by application users to enforce requirements on applications.",
+isbn="978-3-319-75178-8",
+doi="10.1007/978-3-319-75178-8_4",
+slides = "https://docs.google.com/presentation/d/1PJ9gn_jIdApjrK1-wB3gnAB2PPYOsocxrqMTB96HI2E/edit?usp=sharing",
+pdf = "2017_AutoDasp.pdf",
+url = "https://link.springer.com/chapter/10.1007/978-3-319-75178-8_42",
+bibtex_show = "true",
+  altmetric = {true},
+  dimensions = {true}
+}
+
+
+
+@inproceedings{stateawarethrottling,
+abstract = {Reconfiguration of parallel applications has gained traction with the increasing emphasis on energy/performance trade-off. The ability to dynamically change the amount of resources used by an application allows reaction to changes in the environment, in the application behavior or in the user's requirements. A popular technique consists in changing the number of threads used by the application (Dynamic Concurrency Throttling). Although this provides good control of application performance and power consumption, managing the technique can impose a significant burden on the application programmer, mainly due to state management and redistribution following the addition or removal of a thread. Nevertheless, some common state access patterns have been identified in some popular applications. By leveraging on this knowledge, we will describe how it is possible to simplify the state management procedures following a Concurrency Throttling operation.},
+address = {Bologna, Italy},
+author = {De Sensi, Daniele and Kilpatrick, Peter and Torquati, Massimo},
+booktitle = {Proceedings of International Parallel Computing Conference ({ParCo})},
+keywords = {Power-Aware Computing, Concurrency Throttling, Data Stream Processing},
+title = {State-Aware Concurrency Throttling},
+pages= {201--210},
+year = {2017},
+slides = {https://docs.google.com/presentation/d/19TktfDoOvqhXUaB1iX7uL8-uF9ce_6X73zGd07TJFr4/edit?usp=sharing},
+doi = {10.3233/978-1-61499-843-3-201},
+url = {http://ebooks.iospress.nl/volumearticle/48609},
+pdf = {2017_ParCo.pdf},
+bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@article{mammut:softwarex,
+title = "Mammut: High-level management of system knobs and sensors",
+journal = "SoftwareX",
+volume = "6",
+number = "",
+pages = "150 - 154",
+year = "2017",
+month = "jul",
+note = "",
+issn = "2352-7110",
+doi = "http://dx.doi.org/10.1016/j.softx.2017.06.005",
+url = "http://www.sciencedirect.com/science/article/pii/S2352711017300225",
+openaccess = "http://www.sciencedirect.com/science/article/pii/S2352711017300225",
+author = "De Sensi, Daniele and Torquati, Massimo and Danelutto, Marco",
+keywords = "Energy profiling",
+keywords = "DVFS",
+keywords = "System management",
+keywords = "Remote management",
+abstract = {Managing low-level architectural features for controlling performance and power consumption is a growing demand in the parallel computing community. Such features include, but are not limited to: energy profiling, platform topology analysis, CPU cores disabling and frequency scaling. However, these low-level mechanisms are usually managed by specific tools, without any interaction between each other, thus hampering their usability. More important, most existing tools can only be used through a command line interface and they do not provide any API. Moreover, in most cases, they only allow monitoring and managing the same machine on which the tools are used. Mammut provides and integrates architectural management utilities through a high-level and easy-to-use object-oriented interface. By using Mammut, is possible to link together different collected information and to exploit them on both local and remote systems, to build architecture-aware applications.},
+bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@article{p3arsec:taco17,
+ author = {De Sensi, Daniele and De Matteis, Tiziano and Torquati, Massimo and Mencagli, Gabriele and Danelutto, Marco},
+ title = {Bringing Parallel Patterns Out of the Corner: The P$^{3}$ARSEC Benchmark Suite},
+ journal = {ACM Trans. Archit. Code Optim.},
+ issue_date = {October 2017},
+ volume = {14},
+ number = {4},
+ month = oct,
+ year = {2017},
+ issn = {1544-3566},
+ pages = {33:1--33:26},
+ articleno = {33},
+ numpages = {26},
+ url = {http://doi.acm.org/10.1145/3132710},
+ openaccess = {http://dl.acm.org/authorize?N49996},
+ pdf = {2017_TACO.pdf},
+ doi = {10.1145/3132710},
+ acmid = {3132710},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Parallel patterns, algorithmic skeletons, benchmarking, multicore programming, parsec},
+ poster = {2017_TACO_Poster.pdf},
+ abstract = {High-level parallel programming is an active research topic aimed at promoting parallel programming methodologies that provide the programmer with high-level abstractions to develop complex parallel software with reduced time to solution. Pattern-based parallel programming is based on a set of composable and customizable parallel patterns used as basic building blocks in parallel applications. In recent years, a considerable effort has been made in empowering this programming model with features able to overcome shortcomings of early approaches concerning flexibility and performance. In this article, we demonstrate that the approach is flexible and efficient enough by applying it on 12 out of 13 PARSEC applications. Our analysis, conducted on three different multicore architectures, demonstrates that pattern-based parallel programming has reached a good level of maturity, providing comparable results in terms of performance with respect to both other parallel programming methodologies based on pragma-based annotations (i.e., Openmp and OmpSs) and native implementations (i.e., Pthreads). Regarding the programming effort, we also demonstrate a considerable reduction in lines of code and code churn compared to Pthreads and comparable results with respect to other existing implementations.},
+ bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+
+
+@article{nornir:ppl17,
+  author = {Danelutto, Marco and De Sensi, Daniele and Torquati, Massimo},
+  title = {A Power-Aware, Self-Adaptive Macro Data Flow Framework},
+  journal = {Parallel Processing Letters},
+  abstract = {The dataflow programming model has been extensively used as an effective solution to implement efficient parallel programming frameworks. However, the amount of resources allocated to the runtime support is usually fixed once by the programmer or the runtime, and kept static during the entire execution. While there are cases where such a static choice may be appropriate, other scenarios may require to dynamically change the parallelism degree during the application execution. In this paper we propose an algorithm for multicore shared memory platforms, that dynamically selects the optimal number of cores to be used as well as their clock frequency according to either the workload pressure or to explicit user requirements. We implement the algorithm for both structured and unstructured parallel applications and we validate our proposal over three real applications, showing that it is able to save a significant amount of power, while not impairing the performance and not requiring additional effort from the application programmer.},
+  volume = {27},
+  slides = {https://docs.google.com/presentation/d/1CWjcuhewYe6ATDgY87S1Zu1sduVLZE6skIjy4y1wpwc/edit?usp=sharing},
+  number = {01},
+  pages = {1740004},
+  year = {2017},
+  month = {march},
+  doi = {10.1142/S0129626417400047},
+  URL = {http://www.worldscientific.com/doi/abs/10.1142/S0129626417400047},
+  eprint = {http://www.worldscientific.com/doi/pdf/10.1142/S0129626417400047},
+  pdf = {2017_PPL.pdf},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@inproceedings{cttp:pdp17,
+  author    = {Danelutto, Marco and De Matteis, Tiziano and De Sensi, Daniele and Torquati, Massimo},
+  title     = {Evaluating Concurrency Throttling and Thread Packing on SMT Multicores},
+  booktitle = {Proceedings of the 25th Euromicro International Conference on Parallel, Distributed,
+               and Network-Based Processing, {PDP} 2017},
+  location = {St. Petersburg, Russia},
+  year      = {2017},
+  doi={10.1109/PDP.2017.39}, 
+  pages={219-223}, 
+  abstract = {Power-aware computing is gaining an increasing attention both in academic and industrial settings. The problem of  guaranteeing  a  given 
+	 QoS  requirement  (either  in  terms  of performance or power consumption)  can  be  faced  by  selecting and  dynamically  adapting  the  amount  of  physical
+	  and  logical resources  used  by  the  application. In this study, we considered standard multicore platforms by taking as a reference approaches for power-aware 
+	computing two well-known dynamic reconfiguration techniques: Concurrency Throttling and Thread Packing. Furthermore, we also studied the impact of using simultaneous 
+	 multithreading  (e.g.,  Intel’s  HyperThreading) in both  techniques. In this work, leveraging on the applications of the PARSEC benchmark suite, we evaluate these 
+	techniques by considering performance-power trade-offs, resource efficiency, predictability and required programming effort. The results show that, according to the 
+	comparison criteria, these techniques complement each other.},
+  slides = {https://docs.google.com/presentation/d/1qdiJIPpQ19rzgifHwoHYlwfQ0RurBz8xdvSz5zG0xco/edit?usp=sharing},
+  pdf = {2017_PDP.pdf},
+  url = {http://ieeexplore.ieee.org/document/7912648/},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@inproceedings{p3arsec:sac17,
+ author = {Danelutto, Marco and De Matteis, Tiziano and De Sensi, Daniele and Mencagli, Gabriele and Torquati, Massimo},
+ title = {P$^{3}$ARSEC: Towards Parallel Patterns Benchmarking},
+ isbn = {978-1-4503-4486-9},
+ pages = {1582--1589},
+ numpages = {8},
+ doi = {10.1145/3019612.3019745},
+ acmid = {3019745},
+ booktitle = {Proceedings of the 32nd Annual ACM Symposium on Applied Computing},
+ series = {SAC '17},
+ year = {2017},
+ location = {Marrakesh, Morocco},
+ numpages = {8},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Parallel Patterns, PARSEC Benchmarks, Intel KNL},
+ abstract = {High-level parallel programming is a de-facto standard approach to develop parallel software with reduced time to development. High-level abstractions are provided by existing frameworks as pragma-based annotations in the source code, or through pre-built parallel  patterns that recur frequently in  parallel  algorithms,  and that  can  be  easily  instantiated by the programmer to add a structure to the development of  parallel  software.   In  this  paper  we  focus  on  this  second approach and we propose P3ARSEC, a benchmark suite for parallel pattern-based frameworks consisting of a representative subset of PARSEC applications.  We analyse the programmability advantages and the potential performance penalty of using such high-level methodology with respect to hand-made  parallelisations  using  low-level  mechanisms. The results are obtained on the new Intel Knights  Landing multicore, and show a significantly reduced code complexity with comparable performance.},
+ slides = {https://docs.google.com/presentation/d/1tbGK13EGookcV1HvVbup2Rx1HlH65t4tsbhIuaoS3tA/edit#slide=id.g1b7a7fa945_0_14},
+ url = {http://doi.acm.org/10.1145/3019612.3019745},
+ openaccess = {http://dl.acm.org/authorize?N34889},
+ pdf = {2017_SAC.pdf},
+ bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@article{nornir:taco16,
+ author = {De Sensi, Daniele and Torquati, Massimo and Danelutto, Marco},
+ title = {A Reconfiguration Algorithm for Power-Aware Parallel Applications},
+ journal = {ACM Transactions on Architecture and Code Optimization},
+ issue_date = {December 2016},
+ volume = {13},
+ number = {4},
+ month = dec,
+ year = {2016},
+ issn = {1544-3566},
+ pages = {43:1--43:25},
+ articleno = {43},
+ numpages = {25},
+ url = {http://doi.acm.org/10.1145/3004054},
+ openaccess = {http://dl.acm.org/authorize?N34888},
+ pdf = {2016_TACO.pdf},
+ slides = {https://docs.google.com/presentation/d/1-3zD8pe75mWFA9vbvNgKhwqVMg7jC8ari34inUQwEyE/edit?usp=sharing},
+ video = {https://www.youtube.com/watch?v=ckm-Zu8cLdA&feature=youtu.be},
+ doi = {10.1145/3004054},
+ acmid = {3004054},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {DVFS, Power-aware computing, dynamic concurrency throttling, multi-core, online learning, power capping, self-adaptive runtime},
+ abstract = {In current computing systems, many applications require guarantees on their maximum power consumption to not exceed the available power budget. On the other hand, for some applications, it could be possible to decrease their performance, yet maintaining an acceptable level, in order to reduce their power consumption. To provide such guarantees, a possible solution consists in changing the number of cores assigned to the application, their clock frequency and the placement of application threads over the cores. However, power consumption and performance have different trends depending on the application considered and on its input. Finding a configuration of resources satisfying user requirements is in the general case a challenging task.
+In this paper we propose Nornir, an algorithm to automatically derive, without relying on historical data about previous executions, performance and power consumption models of an application in different configurations. By using these models, we are able to select a close to optimal configuration for the given user requirement, either performance or power consumption. The configuration of the application will be changed on-the-fly throughout the execution to adapt to workload fluctuations, external interferences and/or application's phase changes. We validate the algorithm by simulating it over the applications of the PARSEC benchmark suite. Then, we implement our algorithm and we analyse its accuracy and overhead over some of these applications on a real execution environment. Eventually, we compare the quality of our proposal with that of the optimal algorithm and of some state of the art solutions.},
+ bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@Article{pasa:ijpp16,
+ author="Brogi, Antonio and Danelutto, Marco and De Sensi, Daniele and Ibrahim, Ahmad and Soldani, Jacopo and Torquati, Massimo",
+ title="Analysing Multiple QoS Attributes in Parallel Design Patterns-Based Applications",
+ journal="International Journal of Parallel Programming",
+ year="2016",
+ month="november",
+ pages="1--20",
+ abstract="Parallel design patterns can be fruitfully combined to develop parallel software applications. Different combinations of patterns can feature different QoS while being functionally equivalent. To support application developers in selecting the best combinations of patterns to develop their applications, we hereby propose a probabilistic approach that permits analysing, at design time, multiple QoS attributes of parallel design patterns-based application. We also present a proof-of-concept implementation of our approach, together with some experimental results.",
+ issn="1573-7640",
+ doi="10.1007/s10766-016-0476-8",
+ openaccess="http://rdcu.be/yK2u",
+ url="http://dx.doi.org/10.1007/s10766-016-0476-8",
+ pdf="2016_IJPP.pdf",
+ bibtex_show = "true",
+  altmetric = {true},
+  dimensions = {true}
+}
+
+
+@inproceedings{acaces:16, 
+    address = {Fiuggi, Italy}, 
+    author = {De Sensi, Daniele and Danelutto, Marco and Torquati, Massimo}, 
+    booktitle = {Advanced Computer Architecture and Compilation for High-Performance and Embedded Systems ({ACACES}) -- {P}oster abstracts}, 
+    isbn = {978-88-905806-4-2}, 
+    keywords = {power aware; self adaptive; parallel applications;}, 
+    publisher = {HiPEAC}, 
+    pages = {141 -- 144}, 
+    title = {Power aware reconfigurations of parallel applications}, 
+    pdf = {2016_ACACES.pdf}, 
+    poster = {assets/img/2016_ACACES.png},
+    year = {2016}, 
+    month = {July},
+    abstract = {Current architectures provide many possibilities for the reduction of power consumption of applications, such as reducing the number of used cores or scaling down their frequency. However, the amount of resources allocated to an application is usually static and fixed by the programmer or by the runtime. While there are cases where such a static choice may be appropriate, other scenarios may require to dynamically change the amount of resources during the application execution. Choosing the right amount of resources to use in order to satisfy requirements on performance and/or power consumption is a complex task and testing all the possible configurations is an unfeasible solution since it would require too much time. We show some solutions to this problem that, by acting on the number of cores used by the application an on the frequency of these cores are able to provide guarantees on maximum power consumption or on a minimum performance level. We then outline the main results achieved by applying these techniques to some real applications.},
+    bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+
+@INPROCEEDINGS{models:pdp:16, 
+ author =    {De Sensi, Daniele}, 
+ booktitle = {Proceedings of 24th Euromicro International Conference on Parallel, Distributed, and Network-Based Processing ({PDP})}, 
+ title =     {Predicting Performance and Power Consumption of Parallel Applications}, 
+ year =      {2016}, 
+ pages =     {200 -- 207}, 
+ pdf =  {2016_PDP.pdf},
+ url =       {http://ieeexplore.ieee.org/document/7445331/},
+ keywords =  {Power-aware computing; Regression analysis; PARSEC benchmark; Control knobs; DVFS; Predictive models; Concurrency throttling;}, 
+ doi =       {10.1109/PDP.2016.41}, 
+ month =     {Feb},
+ abstract =  {Current architectures provide many control knobs for the reduction of power consumption of applications, like reducing the number of used cores or scaling down their frequency. However, choosing the right values for these knobs in order to satisfy requirements on performance and/or power consumption is a complex task and trying all the possible combinations of these values is an unfeasible solution since it would require too much time. For this reasons, there is the need for techniques that allow an accurate estimation of the performance and power consumption of an application when a specific configuration of the control knobs values is used. Usually, this is done by executing the application with different configurations and by using these information to predict its behaviour when the values of the knobs are changed. However, since this is a time consuming process, we would like to execute the application in the fewest number of configurations possible. In this work, we consider as control knobs the number of cores used by the application and the frequency of these cores. We show that on most Parsec benchmark programs, by executing the application in 1% of the total possible configurations and by applying a multiple linear regression model we are able to achieve an average accuracy of 96% in predicting its execution time and power consumption in all the other possible knobs combinations.},
+ slides =    {https://drive.google.com/open?id=1tl5DcBySHfA8A7eQhpxykiqofOCVee308VDAomUTHLQ},
+ bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+
+@InProceedings{ff:energy:pdp:15,
+  author =        {Danelutto, Marco and De Sensi, Daniele and Torquati, Massimo},
+  title =         {Energy driven adaptivity in stream parallel computations},
+  booktitle =     {Proceedings of 23th Euromicro International Conference on Parallel, Distributed, and Network-Based Processing ({PDP})}, 
+  year =          {2015},
+  address =       {Turku, Finland},
+  publisher =     {IEEE},
+  pages =         {103 -- 110}, 
+  doi =           {10.1109/PDP.2015.92},
+  ISSN =          {1066-6192}, 
+  pdf =      {2015_PDP.pdf},
+  url =           {http://ieeexplore.ieee.org/document/7092707/},
+  date-added =    {2015-02-28 10:59:38 +0000},
+  date-modified = {2015-02-28 11:01:23 +0000},
+  keywords =      {fastflow, stream parallel, energy consumption, power-aware computing},
+  abstract = {Determining the right amount of resources needed for a given computation is a critical problem. In many cases, computing systems are configured to use an amount of resources to manage high load peaks even though this cause energy waste when the resources are not fully utilised. To avoid this problem, adaptive approaches are used to dynamically increase/decrease computational resources depending on the real needs. A different approach based on Dynamic Voltage and Frequency Scaling (DVFS) is emerging as a possible alternative solution to reduce energy consumption of idle CPUs by lowering their frequencies. In this work, we propose to tackle the problem in stream parallel computations by using both the classic adaptivity concepts and the possibility provided by modern CPUs to dynamically change their frequency. We validate our approach showing a real network application that performs Deep Packet Inspection over network traffic. We are able to manage bandwidth changing over time, guaranteeing minimal packet loss during reconfiguration and minimal energy consumption.},
+  slides = {https://drive.google.com/open?id=1b9am66LlxC4b1tKtocbh_dv7BMxCbVNoO-_lYKDcprc},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@InProceedings{ff:DPI:14,
+  author =    {Danelutto, Marco and Deri, Luca and De Sensi, Daniele and Torquati, Massimo},
+  title =     {Deep Packet Inspection on Commodity Hardware using FastFlow},
+  booktitle = {Proceedings of 15th International Parallel Computing Conference ({ParCo})},
+  year =      {2013},
+  editor =    {Michael Bader and Arndt Bode and Hans-Joachim Bungartz and Michael Gerndt and Gerhard R. Joubert and Frans Peters},
+  volume =    {25},
+  series =    {Advances in Parallel Computing},
+  pages =     {92 -- 99},
+  address =   {Munich, Germany},
+  publisher = {IOS Press},
+  doi =       {10.3233/978-1-61499-381-0-92},
+  keywords =  {fastflow, dpi, network monitoring},
+  pdf =  {2013_ParCo.pdf},
+  url = {http://ebooks.iospress.nl/publication/35869},
+  abstract =  {The analysis of packet payload is mandatory for network security and traffic monitoring applications. The computational cost of this activity pushed the industry towards hardware-assisted deep packet inspection (DPI) that have the disadvantage of being more expensive and less flexible. This paper covers the design and implementation of a new DPI framework using FastFlow, a skeleton-based parallel programming library targeting efficient streaming on multi-core architectures. The experimental results demonstrate the efficiency of the DPI framework proposed, proving the feasibility to perform 10Gbit DPI analysis using modern commodity hardware.},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
+}
+
+@inproceedings{DBLP:conf/parco/DaneluttoDS11, 
+ author = {Danelutto, Marco and Deri, Luca and De Sensi, Daniele}, 
+ title = {Network Monitoring on Multicores with Algorithmic Skeletons}, 
+ booktitle = {Proceedings of 14th Inernational Parallel Computing Conference ({ParCo})},
+ pages = {519 -- 526}, 
+ year = {2011}, 
+ crossref = {DBLP:conf/parco/2011}, 
+ pdf = {2011_ParCo.pdf},
+ url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.231.9143},
+ doi = {10.3233/978-1-61499-041-3-519}, 
+ timestamp = {Tue, 28 Apr 2015 15:53:30 +0200}, 
+ abstract = {Monitoring network traffic on 10 Gbit networks requires very efficient tools capable of exploiting modern multicore computing architectures. Specialized network cards can accelerate packet capture and thus reduce the processing overhead, but they can not achieve adequate packet analysis performance. For this reason most monitoring tools cannot cope with high network speeds. We describe the design and implementation of ffProbe, a network traffic monitoring application built on top of FastFlow, combined with several optimized parallel programming patterns. We compare ffProbe with two popular network monitoring probes. The results demonstrate that it can scale significantly better with number of cores and thus may be suitable for monitoring 10 Gbit networks using commodity servers.},
+ slides = {2011_ParCo_Slides.pdf},
+ bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true}
 }

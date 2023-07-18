@@ -1,6 +1,39 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"SC22":
+  url: https://sc22.supercomputing.org/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"SC21":
+  url: https://sc21.supercomputing.org/
+  color: "#00369f"
+
+"SC20":
+  url: https://sc20.supercomputing.org/
+  color: "#00369f"
+
+"SC19":
+  url: https://sc19.supercomputing.org/
+  color: "#00369f"
+
+"SIGMETRICS23":
+  url: https://www.sigmetrics.org/sigmetrics2023/
+  color: "#00369f"
+
+"CCS22":
+  url: "https://www.sigsac.org/ccs/CCS2022/"
+  color: "#00369f"
+
+"KDD18":
+  url: "https://www.kdd.org/kdd2018/"
+  color: "#00369f"
+
+"FGCS":
+  url: https://www.sciencedirect.com/journal/future-generation-computer-systems
+  color: "#0b6623"
+
+"TPDS":
+  url: https://www.computer.org/csdl/journal/td
+  color: "#0b6623"
+
+"Access":
+  url: https://ieeeaccess.ieee.org/
+  color: "#0b6623"
