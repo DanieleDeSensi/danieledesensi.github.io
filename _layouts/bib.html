@@ -193,12 +193,12 @@
 
           <!-- Awards -->
           {%- if entry.award %}
-            <a class="btn btn-sm z-depth-0" role="button" style="background-color:#ffd700; border:1px solid #000000; pointer-events:none"><i class="fa-solid fa-award"></i> {{ entry.award }}</a>
+            <a class="btnaward btn btn-sm z-depth-0" role="button" style="background-color:#ffd700; border:1px solid #000000; pointer-events:none"><i class="fa-solid fa-award"></i> {{ entry.award }}</a>
           {%- endif %}
           </div>
 
-          <div class="links">
-          <!-- Artifacts -->
+          <!--
+          <div class="links">    
           {%- if entry.artifacts-available %}
             <img src="/assets/img/artifacts_available.jpg" alt="Artifacts Available" style="width:30px;height:30px;vertical-align:middle;padding-bottom:0px;">
           {%- endif %}
@@ -208,8 +208,9 @@
           {%- if entry.results-reproduced %}
             <img src="/assets/img/results_reproduced.jpg" alt="Results Reproduced" style="width:30px;height:30px;vertical-align:middle;padding-bottom:0px;">
           {%- endif %}
-
           </div>
+           -->
+
           {% if site.badges %}
           <div class="badges">
             {%- if site.badges.altmetric_badge %}

@@ -92,6 +92,7 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
+    font-size: 1.5rem;
   }
 
   .card-item {
@@ -120,7 +121,7 @@ blockquote {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    //font-family: monospace;
 
     p {
       display: inline-block;
@@ -649,6 +650,21 @@ footer.sticky-bottom {
       .links {
         a.btn {
           color: var(--global-text-color);
+          border: 1px solid var(--global-text-color);
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.25rem;
+          padding-bottom: 0.25rem;
+          margin-left: 0;
+
+          &:hover {
+            color: var(--global-theme-color);
+            border-color: var(--global-theme-color);
+          }
+        }
+
+        a.btnaward {
+          color: var(--global-text-color-award);
           border: 1px solid var(--global-text-color);
           padding-left: 1rem;
           padding-right: 1rem;
