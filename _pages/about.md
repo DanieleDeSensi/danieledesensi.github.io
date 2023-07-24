@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am an Assistant Professor at Sapienza University of Rome. I was previously a PostDoc researcher at ETH Zürich and University of Pisa. I received the Ph.D. in Computer Science from the University of Pisa.
 
-My main reseach interests lie on the fields of Interconnection Networks, Green Computing, Dynamic Runtime Adaptations, Parallel Programming and High Performance Computing.
+My main reseach interests lie on the fields of Interconnection Networks, High Performance Computing, Green Computing, and Parallel Programming.
 You can find more about my research by checking the [publications page](/publications/).
 
 If you have anything to discuss, feel free to [send me an e-mail](mailto:desensi@di.uniroma1.it).
