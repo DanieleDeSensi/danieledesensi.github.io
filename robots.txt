@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://danieledesensi.github.io//sitemap.xml
+Sitemap: https://danieledesensi.github.io/sitemap.xml
