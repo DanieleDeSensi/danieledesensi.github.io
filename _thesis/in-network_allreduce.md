@@ -5,7 +5,7 @@ description:
 img: https://images.unsplash.com/photo-1506399309177-3b43e99fead2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1468&q=80
 importance: 1
 category: Available Thesis
-related_publications: flare
+related_publications: flare, hxmesh
 ---
 
 The allreduce operation is one of the most commonly used communication routines in distributed applications. In this operation, vectors coming from different nodes need to be aggregated element-wise (e.g., by summing elements), and the result distributed back to all the nodes. Estimations show up to 40% of the time spent in the training of large-scale machine learnign models is spent performing this operation [1]. To improve its bandwidth and the performance of applications using it, this operation can be accelerated by offloading it to network switches. Instead of sending data back-and-forth between nodes, data is aggregated directly inside the network switches. It has been shown that by doing so, performance of the allreduce can be improved by up to 2x.

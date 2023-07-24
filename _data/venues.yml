@@ -1,3 +1,4 @@
+# Conferences
 "SC22":
   url: https://sc22.supercomputing.org/
   color: "#00369f"
@@ -19,13 +20,74 @@
   color: "#00369f"
 
 "CCS22":
-  url: "https://www.sigsac.org/ccs/CCS2022/"
+  url: https://www.sigsac.org/ccs/CCS2022/
   color: "#00369f"
 
 "KDD18":
-  url: "https://www.kdd.org/kdd2018/"
+  url: https://www.kdd.org/kdd2018/
   color: "#00369f"
 
+"HPCS19":
+  url: https://hpcs2019.cisedu.info/
+  color: "#00369f"
+
+"PPAM":
+  url: https://ppam.edu.pl/
+  color: "#00369f"
+
+"Auto-DaSP19":
+  url: http://calvados.di.unipi.it/auto-dasp-19/
+  color: "#00369f"
+
+"Auto-DaSP18":
+  url: http://calvados.di.unipi.it/auto-dasp-18/
+  color: "#00369f"
+
+"Auto-DaSP17":
+  url: http://calvados.di.unipi.it/auto-dasp-17/
+  color: "#00369f"
+
+"PDP18":
+  url: https://www.computer.org/csdl/proceedings/pdp/2018/12OmNyQ7FQV
+  color: "#00369f"
+
+"PDP17":
+  url: https://www.computer.org/csdl/proceedings/pdp/2017/12OmNxHrym3
+  color: "#00369f"
+
+"PDP16":
+  url: http://pdp2016.cs.ucy.ac.cy/
+  color: "#00369f"
+
+"PDP15":
+  url: https://www.computer.org/csdl/proceedings/pdp/2015/12OmNz5JC1m
+  color: "#00369f"
+
+"Repara":
+  url: https://europar2018.org/program
+  color: "#00369f"
+
+"HPEC":
+  url: https://ieee-hpec.org/2018/
+  color: "#00369f"
+
+"ParCo17":
+  url: https://www.hpc.cineca.it/content/parco-2017
+  color: "#00369f"
+
+"ParCo13":
+  url: https://www.parco.org/
+  color: "#00369f"
+
+"ParCo11":
+  url: http://parco2011.elis.ugent.be/
+  color: "#00369f"
+
+"SAC17":
+  url: https://www.sigapp.org/sac/sac2017/
+  color: "#00369f"
+
+# Journals
 "FGCS":
   url: https://www.sciencedirect.com/journal/future-generation-computer-systems
   color: "#0b6623"
@@ -37,3 +99,41 @@
 "Access":
   url: https://ieeeaccess.ieee.org/
   color: "#0b6623"
+
+"Energies":
+  url: https://www.mdpi.com/journal/energies
+  color: "#0b6623"
+
+"IJPP":
+  url: https://www.springer.com/journal/10766
+  color: "#0b6623"
+
+"JSC":
+  url: https://www.springer.com/journal/11227
+  color: "#0b6623"
+
+"CCPE":
+  url: https://onlinelibrary.wiley.com/journal/15320634
+  color: "#0b6623"
+
+"SoftwareX":
+  url: https://www.sciencedirect.com/journal/softwarex
+  color: "#0b6623"
+
+"TACO":
+  url: https://dl.acm.org/journal/taco
+  color: "#0b6623"
+
+"PPL":
+  url: https://www.worldscientific.com/worldscinet/ppl?cmpid=6350db6df59e5b0001f79b4b&utm_campaign=Dynamic+Search+Ads&utm_source=Google&utm_medium=cpc&sub2=&sub3=&sub4=23075846775&sub5=88596011175&sub6=336010695&sub7=c&sub8=&sub9=g&sub10=&ref_id=CjwKCAjwtuOlBhBREiwA7agf1kbolA12TdfspZneHDHA0jxGjEzf05LZXLD_1ltTcbW_rZgP4R2BcxoCiagQAvD_BwE&gclid=CjwKCAjwtuOlBhBREiwA7agf1kbolA12TdfspZneHDHA0jxGjEzf05LZXLD_1ltTcbW_rZgP4R2BcxoCiagQAvD_BwE
+  color: "#0b6623"
+
+
+# Posters
+"SC17":
+  url: https://sc17.supercomputing.org/
+  color: "#808080"
+
+"ACACES16":
+  url: https://www.hipeac.net/acaces/2016/
+  color: "#808080"
