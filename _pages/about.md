@@ -7,7 +7,7 @@ subtitle: Assitant Professor, <a href='https://www.uniroma1.it/'>Sapienza Univer
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   #address: >
   #  <p>Office 306, Building E</p>
   #  <p>Viale Regina Elena 295</p>
