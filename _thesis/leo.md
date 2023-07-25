@@ -2,7 +2,7 @@
 layout: page
 title: "🚀 Low-Earth Orbit (LEO) Satellite Networks"
 description: 
-img: https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80
+img: https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1468&q=80
 importance: 3
 category: Available Thesis
 related_publications: 
@@ -18,7 +18,7 @@ The student will study existing challenges in LEO networks (e.g., routing, relia
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1468&q=80" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

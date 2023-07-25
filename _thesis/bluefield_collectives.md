@@ -2,7 +2,7 @@
 layout: page
 title: "🗜️ Compressed Collectives on NVIDIA BlueField NICs"
 description: 
-img: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1934&q=80
+img: https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1468&q=80
 importance: 2
 category: Available Thesis
 related_publications: 
@@ -16,11 +16,11 @@ The thesis will be tailored on the student’s expertise, skills, and preference
 <b>Approximate composition:</b> 20% State of the art analysis, 20% Theory/Design, 60% Implementation/Experiments
 
 [1] <a href="https://arxiv.org/abs/2212.07868">Characterizing Off-path SmartNIC for Accelerating Distributed Systems</a><br>
-[1] <a href="https://www.nvidia.com/en-us/networking/products/data-processing-unit/">NVIDIA BlueField Data Processing Units</a><br>
+[2] <a href="https://www.nvidia.com/en-us/networking/products/data-processing-unit/">NVIDIA BlueField Data Processing Units</a><br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1934&q=80" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1468&q=80" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
