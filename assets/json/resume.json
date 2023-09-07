@@ -46,6 +46,12 @@
       "endDate": "2023"
     },
     {
+      "organization": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+      "position": "Technical Program Committee Member",
+      "startDate": "2024",
+      "endDate": "2024"
+    },
+    {
       "organization": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)",
       "position": "Program Vice Chair",
       "startDate": "2023",
@@ -67,7 +73,13 @@
       "organization": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
       "position": "Publicity Co-Chair",
       "startDate": "2023",
-      "endDate": "2023"
+      "endDate": "2024"
+    },
+    {
+      "organization": "International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
+      "position": "Publicity Co-Chair",
+      "startDate": "2022",
+      "endDate": "2024"
     },
     {
       "organization": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
@@ -97,7 +109,7 @@
       "organization": "International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
       "position": "Technical Program Committee Member",
       "startDate": "2022",
-      "endDate": "2023"
+      "endDate": "2024"
     },      
     {
       "organization": "International Conference on Computer Science and Software Engineering (CSASE)",
