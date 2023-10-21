@@ -1,4 +1,23 @@
 % Please, preserve year ordering
+@article{canary,
+  title = {Canary: Congestion-Aware In-Network Allreduce Using Dynamic Trees},
+  journal = {Future Generation Computer Systems},
+  volume = {},
+  number = {},
+  pages = {-},
+  year = {2023},
+  note = {},
+  pdf = {2023_Canary.pdf},
+  author = {Daniele De Sensi, Edgar Costa Molero, Salvatore Di Girolamo, Laurent Vanbever, Torsten Hoefler},
+  keywords = {in-network compute, allreduce, load balancing},
+  abstract = {The allreduce operation is an essential building block for many distributed applications, ranging from the training of deep learning models to scientific computing. In an allreduce operation, data from multiple hosts is aggregated together and then broadcasted to each host participating in the operation. Allreduce performance can be improved by a factor of two by aggregating the data directly in the network. Switches aggregate data coming from multiple ports before forwarding the partially aggregated result to the next hop. In all existing solutions, each switch needs to know the ports from which it will receive the data to aggregate. However, this forces packets to traverse a predefined set of switches, making these solutions prone to congestion. For this reason, we design Canary, the first congestion-aware in-network allreduce algorithm. Canary uses load balancing algorithms to forward packets on the least congested paths. Because switches do not know from which ports they will receive the data to aggregate, they use timeouts to aggregate the data in a best-effort way. We develop a P4 Canary prototype and evaluate it on a Tofino switch. We then validate Canary through simulations on large networks, showing performance improvements up to 40% compared to the state-of-the-art.},
+  abbr = {FGCS},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true},
+  selected = {true}
+}
+
 
 @article{cloudnoise,
   author = {De Sensi, Daniele and De Matteis, Tiziano and Taranov, Konstantin and Di Girolamo, Salvatore and Rahn, Tobias and Hoefler, Torsten},
