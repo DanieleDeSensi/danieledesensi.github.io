@@ -1,4 +1,8 @@
 # Conferences
+"NSDI24":
+  url: https://www.usenix.org/conference/nsdi24
+  color: "#00369f"
+
 "SC22":
   url: https://sc22.supercomputing.org/
   color: "#00369f"

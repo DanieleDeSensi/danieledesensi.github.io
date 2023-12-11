@@ -40,6 +40,12 @@
   ],
   "service": [
     {
+      "organization": "International Conference on Parallel Processing (ICPP)",
+      "position": "Technical Program Committee Member",
+      "startDate": "2024",
+      "endDate": "2024"
+    },
+    {
       "organization": "International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)",
       "position": "Technical Program Committee Member",
       "startDate": "2021",
