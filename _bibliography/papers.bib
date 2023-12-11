@@ -1,8 +1,21 @@
 % Please, preserve year ordering
-@article{slimfly,
+@inproceedings{slimfly,
 author = {Nils Blach, Maciej Besta, Daniele De Sensi, Jens Domke, Hussein Harake, Shigang Li, Patrick Iff, Marek Konieczny, Kartik Lakhotia, Ales Kubicek, Marcel Ferrari, Fabrizio Petrini, Torsten Hoefler},
 title = {A High-Performance Design, Implementation, Deployment, and Evaluation of The Slim Fly Network},
 booktitle = {21th USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+abstract = {Novel low-diameter network topologies such as Slim Fly (SF)
+offer significant cost and power advantages over the established Fat Tree, Clos, or Dragonfly. To spearhead the adoption
+of low-diameter networks, we design, implement, deploy, and
+evaluate the first real-world SF installation. We focus on deployment, management, and operational aspects of our test
+cluster with 200 servers and carefully analyze performance.
+We demonstrate techniques for simple cabling and cabling
+validation as well as a novel high-performance routing architecture for InfiniBand-based low-diameter topologies. Our
+real-world benchmarks show SF's strong performance for
+many modern workloads such as deep neural network training, graph analytics, or linear algebra kernels. SF outperforms
+non-blocking Fat Trees in scalability while offering comparable or better performance and lower cost for large network
+sizes. Our work can facilitate deploying SF while the associated (open-source)1
+routing architecture is fully portable and
+applicable to accelerate any low-diameter interconnect.},
 year = {2024},
 address = {Santa Clara, CA},
 publisher = {USENIX Association},
@@ -15,10 +28,23 @@ dimensions = {true},
 selected = {false}
 }
 
-@article{swing,
+@inproceedings{swing,
 author = {Daniele De Sensi, Tommaso Bonato, David Saam, Torsten Hoefler},
 title = {Swing: Short-cutting Rings for Higher Bandwidth Allreduce},
 booktitle = {21th USENIX Symposium on Networked Systems Design and Implementation (NSDI 24)},
+abstract = {The allreduce collective operation accounts for a significant
+fraction of the runtime of workloads running on distributed
+systems. One factor determining its performance is the distance between communicating nodes, especially on networks
+like torus, where a higher distance implies multiple messages
+being forwarded on the same link, thus reducing the allreduce
+bandwidth. Torus networks are widely used on systems optimized for machine learning workloads (e.g., Google TPUs
+and Amazon Trainium devices), as well as on some of the
+Top500 supercomputers. To improve allreduce performance
+on torus networks we introduce Swing, a new algorithm that
+keeps a low distance between communicating nodes by swinging between torus directions. Our analysis and experimental
+evaluation show that Swing outperforms by up to 3x existing allreduce algorithms for vectors ranging from 32B to
+128MiB, on different types of torus and torus-like topologies,
+regardless of their shape and size.},
 year = {2024},
 address = {Santa Clara, CA},
 publisher = {USENIX Association},
