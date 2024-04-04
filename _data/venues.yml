@@ -1,4 +1,8 @@
 # Conferences
+"HPDC24":
+  url: https://www.hpdc.org/2024/
+  color: "#00369f"
+
 "NSDI24":
   url: https://www.usenix.org/conference/nsdi24
   color: "#00369f"
