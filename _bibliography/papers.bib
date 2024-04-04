@@ -1,4 +1,21 @@
 % Please, preserve year ordering
+@inproceedings{cerebras_reduce,
+author = {Luczynski, Piotr and Gianinazzi, Lukas and Iff, Patrick and Wilson, Leighton and De Sensi, Daniele and Hoefler, Torsten},
+title = {Near-Optimal Wafer-Scale Reduce},
+booktitle = {Proceedings of the 33rd International Symposium on High-Performance Parallel and Distributed Computing (HPDC)},
+abstract = {Efficient Reduce and AllReduce communication collectives are a critical cornerstone of high-performance computing (HPC) applications. We present the first systematic investigation of Reduce and AllReduce on the Cerebras Wafer-Scale Engine (WSE). This architecture has been shown to achieve unprecedented performance both for machine learning workloads and other computational problems like FFT. We introduce a performance model to estimate the execution time of algorithms on the WSE and validate our predictions experimentally for a wide range of input sizes. In addition to existing implementations, we design and implement several new algorithms specifically tailored to the architecture. Moreover, we establish a lower bound for the runtime of a Reduce operation on the WSE. Based on our model, we automatically generate code that achieves near-optimal performance across the whole range of input sizes. Experiments demonstrate that our new Reduce and AllReduce algorithms outperform the current vendor solution by up to 3.27x. Additionally, our model predicts performance with less than 4% error. The proposed communication collectives increase the range of HPC applications that can benefit from the high throughput of the WSE. Our model-driven methodology demonstrates a disciplined approach that can lead the way to further algorithmic advancements on wafer-scale architectures.},
+year = {2024},
+address = {},
+publisher = {},
+month = {},
+abbr = {HPDC24},
+bibtex_show = {true},
+altmetric = {true},
+dimensions = {true},
+selected = {false}
+}
+
+
 @inproceedings{slimfly,
 author = {Blach, Nils and Besta, Maciej and De Sensi, Daniele and Domke, Jens and Harake, Hussein and Li, Shigang and Iff, Patric and Konieczny, Marek and Lakhotia, Kartik and Kubicek, Ales and Ferrari, Marcel and Petrini, Fabrizio and Hoefler, Torsten},
 title = {A High-Performance Design, Implementation, Deployment, and Evaluation of The Slim Fly Network},

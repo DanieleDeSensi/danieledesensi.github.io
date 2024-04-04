@@ -40,6 +40,12 @@
   ],
   "service": [
     {
+      "organization": "ACM Asia-Pacific Workshop on Systems (APSys)",
+      "position": "Technical Program Committee Member",
+      "startDate": "2024",
+      "endDate": "2024"
+    },
+    {
       "organization": "International Conference on Parallel Processing (ICPP)",
       "position": "Technical Program Committee Member",
       "startDate": "2024",
@@ -109,7 +115,7 @@
       "organization": "Euro-Par Conference, Workshop on \"Scalable Compute Continuum\"",
       "position": "Technical Program Committee Member",
       "startDate": "2023",
-      "endDate": "2023"
+      "endDate": "2024"
     },
     {
       "organization": "International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD)",
@@ -139,7 +145,7 @@
       "organization": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)",
       "position": "Technical Program Committee Member",
       "startDate": "2020",
-      "endDate": "2022"
+      "endDate": "2024"
     },  
     {
       "organization": "International Conference on Advanced Communications and Computation (INFOCOMP)",
