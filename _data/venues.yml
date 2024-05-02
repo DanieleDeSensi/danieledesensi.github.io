@@ -1,4 +1,8 @@
 # Conferences
+"ATC24":
+  url: https://www.usenix.org/conference/atc24
+  color: "#00369f"
+
 "HPDC24":
   url: https://www.hpdc.org/2024/
   color: "#00369f"
