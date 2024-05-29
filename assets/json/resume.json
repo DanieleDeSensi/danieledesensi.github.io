@@ -40,6 +40,12 @@
   ],
   "service": [
     {
+      "organization": "19th USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
+      "position": "Technical Program Committee Member",
+      "startDate": "2025",
+      "endDate": "2025"
+    },
+    {
       "organization": "ACM Asia-Pacific Workshop on Systems (APSys)",
       "position": "Technical Program Committee Member",
       "startDate": "2024",
