@@ -1,4 +1,8 @@
 # Conferences
+"SC24":
+  url: https://sc24.supercomputing.org/
+  color: "#00369f"
+
 "ATC24":
   url: https://www.usenix.org/conference/atc24
   color: "#00369f"
