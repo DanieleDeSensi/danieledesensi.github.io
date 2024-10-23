@@ -2,7 +2,7 @@
 "IXPUG24":
   url: https://www.ixpug.org/events/sc24-workshop
   color: "#00369f"
-  
+
 "SC24":
   url: https://sc24.supercomputing.org/
   color: "#00369f"
@@ -149,7 +149,11 @@
   color: "#0b6623"
 
 
-# Posters
+# Posters/Other
+"arXiv":
+  url: https://arxiv.org/
+  color: "#808080"
+
 "SC17":
   url: https://sc17.supercomputing.org/
   color: "#808080"

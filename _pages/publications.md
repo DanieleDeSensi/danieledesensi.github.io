@@ -13,7 +13,7 @@ nav_order: 1
 <p style="display:inline;">Legend:</p>
 <abbr class="badge" style="display:inline; background-color:#00369f; color:#ffffff;">Conference/Workshop</abbr>
 <abbr class="badge" style="display:inline; background-color:#0b6623; color:#ffffff;">Journal</abbr>
-<abbr class="badge" style="display:inline; background-color:#808080; color:#ffffff;">Poster/Others</abbr>
+<abbr class="badge" style="display:inline; background-color:#808080; color:#ffffff;">arXiv/Poster/Other</abbr>
 
 {% bibliography -f {{ site.scholar.bibliography }} %}
 
