@@ -1,4 +1,8 @@
 # Conferences
+"IXPUG24":
+  url: https://www.ixpug.org/events/sc24-workshop
+  color: "#00369f"
+  
 "SC24":
   url: https://sc24.supercomputing.org/
   color: "#00369f"
