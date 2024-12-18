@@ -2,10 +2,9 @@
 layout: page
 title: "⚙️ Collectives Tuning in Open MPI/MPICH"
 description: 
-img: https://images.unsplash.com/photo-1600521158202-f64be2d4e7b1?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+img: https://plus.unsplash.com/premium_photo-1673460448921-9126847f12b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzdHxlbnwwfHwwfHx8MA%3D%3D
 importance: 1
 category: Available Thesis
-related_publications: collectives-tuning
 ---
 
 Collective operations, such as allreduce, broadcast, and gather, are essential for parallel applications that require communication and data sharing across distributed systems. Optimizing these operations is crucial for improving the overall performance of high-performance computing (HPC) systems, particularly in the context of modern architectures with heterogeneous hardware (e.g., CPUs, GPUs, and specialized accelerators). Open MPI and MPICH are two of the most widely used MPI (Message Passing Interface) libraries for parallel programming, and they both offer various tunable parameters and algorithms to optimize collective operations.
@@ -25,6 +24,6 @@ The student will work on designing and implementing improvements in collective c
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://images.unsplash.com/photo-1600521158202-f64be2d4e7b1?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="https://plus.unsplash.com/premium_photo-1673460448921-9126847f12b8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzdHxlbnwwfHwwfHx8MA%3D%3D" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
