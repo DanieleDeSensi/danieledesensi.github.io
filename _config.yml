@@ -172,9 +172,6 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  thesis:
-    output: true
-    permalink: /thesis/:path/
 
 announcements:
   enabled: true
