@@ -1,4 +1,12 @@
 # Conferences
+"DSD25":
+  url: https://dsd-seaa.com/
+  color: "#00369f"
+
+"SC25":
+  url: https://sc25.supercomputing.org/
+  color: "#00369f"
+
 "IXPUG24":
   url: https://www.ixpug.org/events/sc24-workshop
   color: "#00369f"
