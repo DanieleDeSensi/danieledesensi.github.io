@@ -1,6 +1,59 @@
 % Please, preserve year ordering
+%%%%%%%%
+% 2025 %
+%%%%%%%%
+@inproceedings{bine,
+  author = {De Sensi, Daniele and Pasqualoni, Saverio and Piarulli, Lorenzo and Bonato, Tommaso and Ba, Seydou and Turisini, Matteo and Domke, Jens and Hoefler, Torsten},
+  title = {Bine Trees: Enhancing Collective Operations by Optimizing Communication Locality},
+  abstract = {As high-performance computing (HPC) systems grow, optimizing communication locality becomes essential for performance. HPC networks are often oversubscribed, consisting of fully connected groups that are sparsely connected. We introduce Binomial Negabinary (Bine) trees, a novel approach to enhance collective operations by reducing inter-group communication. They minimize the distance between communicating ranks, reducing traffic on global links and alleviating congestion. Unlike traditional hierarchical algorithms, Bine trees are topology-agnostic and do not assume a uniform partition of ranks, making them ideal for production supercomputers with irregular process allocations. We design algorithms for eight collectives, achieving up to 5x speedups and 33% less global traffic on four supercomputers with four different topologies. Our results emphasize their effectiveness in improving performance while reducing the load on global links.},
+  year = {2025},
+  month = nov,
+  booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC'25)},
+  doi = {To Appear},
+  abbr = {SC25},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true},
+  selected = {true}
+}
+
+@inproceedings{uno,
+  author = {Bonato, Tommaso and Abdous, Sepehr and Kabbani, Abdul and Ghalayini, Ahmad and Gebara, Nadeen and Lam, Terry and Agarwal, Anup and Chen, Tiancheng and Yu, Zhuolong and Taranov, Konstantin and Elhaddad, Mahmoud and De Sensi, Daniele and Ghorbani, Soudeh and Hoefler, Torsten},
+  title = {Uno: A One-Stop Solution for Inter- and Intra-Data Center Congestion Control and Reliable Connectivity},
+  abstract = {Cloud computing and AI workloads are driving unprecedented demand for efficient communication within and across datacenters. However, the coexistence of intra- and inter-datacenter traffic within datacenters plus the disparity between the RTTs of intra- and inter-datacenter networks complicates congestion management and traffic routing. Particularly, faster congestion responses of intra-datacenter traffic causes rate unfairness when competing with slower inter-datacenter flows. Additionally, inter-datacenter messages suffer slow loss recovery and, thus, require reliability. Alas, existing solutions overlook these challenges and handle inter- and intra-datacenter congestion with separate control loops or at different granularities. We propose Uno, a unified system for both inter- and intra-DC environments that integrates a transport protocol for rapid congestion reaction and fair rate control with a load balancing scheme that combines erasure coding and adaptive routing. Our findings show that Uno significantly improves the completion times of both inter- and intra-DC flows compared to state-of-the-art methods such as Gemini.},
+  year = {2025},
+  month = nov,
+  booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC'25)},
+  doi = {To Appear},
+  abbr = {SC25},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true},
+  selected = {false}
+}
+
+@INPROCEEDINGS {net4exa,
+  author = {Martinelli,	Michele and Ammendola, Roberto and Biagioni, Andrea and Chiarini, Carlotta and Frezza,	Ottorino and Lo Cicero, Francesca and Lonardo, Alessandro and Paolucci, Pier Stanislao and Pastorelli, Elena and Perticaroli, Pierpaolo and Pontisso, Luca and Rossi, Cristian and Simula, Francesco and Vicini, Piero and Colin, David and Pichon,	Grégoire and Louvet,	Alexandre and Gliksberg, John and Chen, Claire and Turisini, Matteo and Monterubbiano, Andrea and Nominé, Jean-Philippe and Dutoit, Denis and Taboada, Hugo and Zaourar, Lilia and Benazouz, Mohamed and Bilas, Angelos and Chaix, Fabien and Katevenis, Manolis and Chrysos, Nikolaos and Mageiropoulos, Evangelos and Kozanitis, Christos and Moen, Thomas and Persvold, Steffen and Rustad,	Einar and Fiore, Sandro and Pezzuto, Simone and Granelli, Fabrizio and Potestio, Raffaello and Tubiana, Luca and Velha, Philippe and Vella, Flavio and De Sensi, Daniele and Pontarelli, Salvatore},
+  booktitle = {Proceedings of the Euromicro Conference Series on Digital System Design (DSD'25)},
+  title = {{Pioneering the Future of Interconnects for Supercomputing and AI}},
+  year = {2025},
+  volume = {},
+  ISSN = {},
+  abstract = {NET4EXA aims to develop a next-generation high-performance interconnect for HPC and AI systems, addressing the increasing demands of large-scale infrastructures, such as those required for training Large Language Models. Building upon the proven BXI (Bull eXascale Interconnect) European technology used in TOP15 supercomputers, NET4EXA will deliver the new BXI release, BXIv3, a complete hardware and software interconnect solution, including switch and network interface components. The project will integrate a fully functional pilot system at TRL 8, ready for deployment into upcoming exascale and post-exascale systems from 2025 onward. Leveraging prior research from European initiatives like RED-SEA, the previous achievements of consortium partners, and over 20 years of expertise from BULL, NET4EXA also lays the groundwork for the future generation of BXI, BXIv4, providing analysis and preliminary design. The project will use a hybrid development and co-design approach, combining commercial switch technology with custom IP and FPGA-based NICs. Performance of NET4EXA BXIv3 interconnection will be evaluated using a broad portfolio of benchmarks, scientific scalable applications and AI workloads.},
+  doi = {To Appear},
+  url = {https://doi.ieeecomputersociety.org/10.1109/SEAA60479.2023.00068},
+  publisher = {IEEE Computer Society},
+  address = {Los Alamitos, CA, USA},
+  month = {sep}
+}
+
+
+
+%%%%%%%%
+% 2024 %
+%%%%%%%%
 @article{10.1145/3623490,
-  author = {Hoefler, Torsten and Bonoto, Tommaso and De Sensi, Daniele and Di Girolamo, Salvatore and Li, Shigang and Heddes, Marco and Goel, Deepak and Castro, Miguel and Scott, Steve},
+  author = {Hoefler, Torsten and Bonato, Tommaso and De Sensi, Daniele and Di Girolamo, Salvatore and Li, Shigang and Heddes, Marco and Goel, Deepak and Castro, Miguel and Scott, Steve},
   title = {HammingMesh: A Network Topology for Large-Scale Deep Learning},
   year = {2024},
   publisher = {Association for Computing Machinery},
@@ -43,7 +96,7 @@
   year = {2024},
   month = nov,
   booktitle = {Proceedings of the Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC'24 Workshops)},
-  doi = {To Appear},
+  doi = {10.1109/SCW63240.2024.00124},
   abbr = {IXPUG24},
   bibtex_show = {true},
   altmetric = {true},
@@ -59,7 +112,7 @@
   year = {2024},
   month = nov,
   booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis (SC'24)},
-  doi = {To Appear},
+  doi = {10.1109/SC41406.2024.00039},
   abbr = {SC24},
   bibtex_show = {true},
   altmetric = {true},
