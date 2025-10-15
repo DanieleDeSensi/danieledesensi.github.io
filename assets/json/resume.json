@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Daniele De Sensi",
-    "position": "Assistant Professor",
+    "position": "Associate Professor",
     "image": "",
     "email": "desensi@di.uniroma1.it",
     "phone": "+39.06.49255.471",
@@ -15,8 +15,14 @@
   "work": [
     {
       "name": "Sapienza University of Rome, Italy",
+      "position": "Associate Professor",
+      "startDate": "2025.09"
+    },
+    {
+      "name": "Sapienza University of Rome, Italy",
       "position": "Assistant Professor",
-      "startDate": "2022.09"
+      "startDate": "2022.09",
+      "endDate": "2025.08"
     },
     {
       "name": "ETH Zurich, Switzerland",
@@ -39,6 +45,18 @@
     }
   ],
   "service": [
+    {
+      "organization": "ACM International Conference on Supercomputing 2026 (ICS)",
+      "position": "Technical Program Committee Member",
+      "startDate": "2026",
+      "endDate": "2026"
+    },          
+    {
+      "organization": "Euro-Par Conference",
+      "position": "Artifact Evaluation Chair",
+      "startDate": "2026",
+      "endDate": "2026"
+    },      
     {
       "organization": "19th USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
       "position": "Technical Program Committee Member",
@@ -69,6 +87,12 @@
       "startDate": "2024",
       "endDate": "2024"
     },
+    {
+      "organization": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+      "position": "Technical Program Committee Member",
+      "startDate": "2026",
+      "endDate": "2026"
+    }, 
     {
       "organization": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)",
       "position": "Program Vice Chair",
