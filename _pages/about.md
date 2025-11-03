@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Assitant Professor, <a href='https://www.uniroma1.it/'>Sapienza University of Rome</a>
+subtitle: Associate Professor, <a href='https://www.uniroma1.it/'>Sapienza University of Rome</a>
 
 profile:
   align: right
