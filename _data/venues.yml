@@ -1,4 +1,8 @@
 # Conferences
+"ISC26":
+  url: https://isc-hpc.com/
+  color: "#00369f"
+
 "EuroSys26":
   url: https://2026.eurosys.org/
   color: "#00369f"

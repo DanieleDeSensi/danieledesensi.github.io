@@ -2,6 +2,40 @@
 %%%%%%%%
 % 2026 %
 %%%%%%%%
+@inproceedings{pico,
+  author       = {Pasqualoni, Saverio and Bonato, Tommaso and Piarulli, Lorenzo and Hoefler, Torsten and Canini, Marco and De Sensi, Daniele},
+  title        = {{PICO: Performance Insights for Collective Operations}},
+  booktitle    = {{ISC} High Performance 2026 Research Paper Proceedings (41th International
+                  Conference), Hamburg, Germany, June 22-26, 2026},
+  publisher    = {Prometeus GmbH / {IEEE}},
+  year         = {2026},
+  doi          = {To Appear},
+  abstract     = {Collective operations are cornerstones of both HPC applications and large-scale AI training and inference, yet benchmarking them in a systematic and reproducible way remains difficult on modern systems due to the complexity of their hardware and software stacks. Existing suites primarily report end-to-end timings and offer limited support for controlled algorithm and configuration selection, fine-grained profiling, and capturing the runtime environment. We present PICO (Performance Insights for Collective Operations), an open-source framework that decouples portable experiment setup from platform execution, provides a backend-adaptive parameter selection interface across MPI and NCCL, supplies plain-MPI reference collective implementations, optionally instrumentable, and records the system configuration for reproducible comparisons. Evaluated on three major supercomputers, PICO shows that default collective algorithms and transport settings can be up to 5x slower than the best available choice. It provides diagnostic evidence by isolating topology sensitive algorithmic choices and, through instrumentation, reveals detailed algorithmic breakdowns. To assess end-to-end effects of benchmark-informed tuning and evaluate application-level impacts, we replay open-source LLM training traces in ATLAHS simulator with optimized collective profiles identified by PICO, achieving reductions in training times of up to 44%.},
+  abbr = {ISC26},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true},
+  selected = {false},
+  arxiv        = {2508.16809},
+  award = {Best Paper Finalist},
+}
+
+@inproceedings{congestion_isc26,
+  author       = {Piarulli, Lorenzo and Faltelli, Marco and Pleiter, Dirk and Sivalingam, Karthee and Zhang, Dancheng and Zhao, Kexue and Turisini, Matteo and Iannone, Francesco and Artigiani, Aldo and De Sensi, Daniele},
+  title        = {{Characterizing the Impact of Congestion in Modern HPC Interconnects}},
+  booktitle    = {{ISC} High Performance 2026 Research Paper Proceedings (41th International
+                  Conference), Hamburg, Germany, June 22-26, 2026},
+  publisher    = {Prometeus GmbH / {IEEE}},
+  year         = {2026},
+  doi          = {To Appear},
+  abstract     = {High-performance computing (HPC) systems increasingly support both scalable AI training and large-scale simulation workloads. Both typically rely heavily on collective communication operations. On modern supercomputers, however, network congestion has emerged as a major limitation, driven by heterogeneous traffic patterns resulting from diverse workload mixes. As system scale and active users continue to grow, understanding how today’s interconnect technologies respond to congestion is essential for establishing realistic performance expectations and informing future system design. This paper presents a comprehensive characterization of congestion behavior across four major HPC fabrics: EDR InfiniBand, HDR InfiniBand, NDR InfiniBand, Cray Slingshot, and emerging Ethernet fabrics. These fabrics span high-performance proprietary interconnects as well as adaptive Ethernet-based designs aligned with emerging standards such as Ultra Ethernet. We evaluate their responses to both steady congestion and a wide range of bursty patterns that vary in duration, intensity, and pause length, capturing the bursty communication typical of AI workloads. Our study covers multiple scales, examining how congestion manifests differently as system size increases and identifying scale-dependent behaviors that influence collective performance. By analyzing the challenges that arise under these controlled stress conditions, we aim to provide a practical overview of congestion issues and possible optimizations. The insights derived from this evaluation can guide researchers and HPC architects in designing more effective congestion-control mechanisms and network load-balancing strategies.},
+  abbr = {ISC26},
+  bibtex_show = {true},
+  altmetric = {true},
+  dimensions = {true},
+  selected = {false},
+}
+
 @inproceedings{reps,
   author = {Bonato, Tommaso and Kabbani, Abdul and Ghalayini, Ahmad and Papamichael, Michael and Dohadwala, Mohammad and Gianinazzi, Lukas and Khalilov, Mikhail and Achermann, Elias and De Sensi, Daniele and Hoefler, Torsten},
   title = {REPS: Recycled Entropy Packet Spraying for Adaptive Load Balancing and Failure Mitigation},
@@ -313,7 +347,7 @@ selected = {false}
   number = {3},
   pdf={2022_CloudNoise.pdf},
   doi = {10.1145/3570609},
-  abstract = {Cloud computing represents an appealing opportunity for cost-effective deployment of HPC workloads on the best-fitting hardware. However, although cloud and on-premise HPC systems offer similar computational resources, their network architecture and performance may differ significantly. For example, these systems use fundamentally different network transport and routing protocols, which may introduce \textit{network noise} that can eventually limit the application scaling. This work analyzes network performance, scalability, and cost of running HPC workloads on cloud systems. First, we consider latency, bandwidth, and collective communication patterns in detailed small-scale measurements, and then we simulate network performance at a larger scale. We validate our approach on four popular cloud providers and three on-premise HPC systems, showing that network (and also OS) noise can significantly impact performance and cost both at small and large scale.},
+  abstract = {Cloud computing represents an appealing opportunity for cost-effective deployment of HPC workloads on the best-fitting hardware. However, although cloud and on-premise HPC systems offer similar computational resources, their network architecture and performance may differ significantly. For example, these systems use fundamentally different network transport and routing protocols, which may introduce network noise that can eventually limit the application scaling. This work analyzes network performance, scalability, and cost of running HPC workloads on cloud systems. First, we consider latency, bandwidth, and collective communication patterns in detailed small-scale measurements, and then we simulate network performance at a larger scale. We validate our approach on four popular cloud providers and three on-premise HPC systems, showing that network (and also OS) noise can significantly impact performance and cost both at small and large scale.},
   journal = {Proc. ACM Meas. Anal. Comput. Syst.},
   month = {dec},
   articleno = {49},
