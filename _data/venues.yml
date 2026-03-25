@@ -124,6 +124,10 @@
   color: "#00369f"
 
 # Journals
+"CSUR":
+  url: https://dl.acm.org/journal/csur
+  color: "#0b6623"
+
 "ToN":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90
   color: "#0b6623"
