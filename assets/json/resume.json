@@ -46,6 +46,12 @@
   ],
   "service": [
     {
+      "organization": "EuroMPI 2026",
+      "position": "Technical Program Committee Member",
+      "startDate": "2026",
+      "endDate": "2026"
+    },          
+    {
       "organization": "ACM International Conference on Supercomputing 2026 (ICS)",
       "position": "Technical Program Committee Member",
       "startDate": "2026",
@@ -62,6 +68,12 @@
       "position": "Technical Program Committee Member",
       "startDate": "2025",
       "endDate": "2025"
+    },
+    {
+      "organization": "SC26 Workshop on High Performance Fabrics for AI and HPC",
+      "position": "Technical Program Committee Member",
+      "startDate": "2026",
+      "endDate": "2026"
     },
     {
       "organization": "ACM Asia-Pacific Workshop on Systems (APSys)",
