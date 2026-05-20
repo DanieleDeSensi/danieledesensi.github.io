@@ -46,6 +46,12 @@
   ],
   "service": [
     {
+      "organization": "SOSP 2026",
+      "position": "Doctoral Workshop Committee Member",
+      "startDate": "2026",
+      "endDate": "2026"
+    },    
+    {
       "organization": "EuroMPI 2026",
       "position": "Technical Program Committee Member",
       "startDate": "2026",
@@ -85,7 +91,7 @@
       "organization": "International Conference on Parallel Processing (ICPP)",
       "position": "Technical Program Committee Member",
       "startDate": "2024",
-      "endDate": "2025"
+      "endDate": "2026"
     },
     {
       "organization": "International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)",
