@@ -1,20 +1,20 @@
 ---
-layout: page
+layout: none
 permalink: /publications/
 title: Publications
-description: Publications in reversed chronological order.
 nav: true
 nav_order: 1
 ---
-<!-- _pages/publications.md -->
-<div class="publications">
-
-
-<p style="display:inline;">Legend:</p>
-<abbr class="badge" style="display:inline; background-color:#00369f; color:#ffffff;">Conference/Workshop</abbr>
-<abbr class="badge" style="display:inline; background-color:#0b6623; color:#ffffff;">Journal</abbr>
-<abbr class="badge" style="display:inline; background-color:#808080; color:#ffffff;">arXiv/Poster/Other</abbr>
-
-{% bibliography -f {{ site.scholar.bibliography }} %}
-
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="0; url=https://hlc-lab.github.io/publications/">
+  <link rel="canonical" href="https://hlc-lab.github.io/publications/">
+  <title>Redirecting…</title>
+  <script>window.location.replace("https://hlc-lab.github.io/publications/");</script>
+</head>
+<body>
+  <p>Redirecting to <a href="https://hlc-lab.github.io/publications/">https://hlc-lab.github.io/publications/</a>…</p>
+</body>
+</html>
