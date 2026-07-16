@@ -9,12 +9,11 @@ nav_order: 1
 <html>
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="refresh" content="0; url=https://hlc-lab.github.io/publications/">
   <link rel="canonical" href="https://hlc-lab.github.io/publications/">
-  <title>Redirecting…</title>
-  <script>window.location.replace("https://hlc-lab.github.io/publications/");</script>
+  <title>Publications</title>
+  <script>window.open("https://hlc-lab.github.io/publications/", "_blank");</script>
 </head>
 <body>
-  <p>Redirecting to <a href="https://hlc-lab.github.io/publications/">https://hlc-lab.github.io/publications/</a>…</p>
+  <p>Publications have moved. If the page did not open, <a href="https://hlc-lab.github.io/publications/" target="_blank" rel="noopener noreferrer">click here</a>.</p>
 </body>
 </html>
