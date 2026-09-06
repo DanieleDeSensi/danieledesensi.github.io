@@ -1,6 +1,11 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% assign service = data[1] %}
-  {% for content in service %}
+  {% assign grouped_service = service | group_by: "category" %}
+  {% for group in grouped_service %}
+  <li class="list-group-item">
+    <h5 class="font-weight-bold">{{ group.name }}</h5>
+  </li>
+  {% for content in group.items %}
   <li class="list-group-item">
     <div class="row">
       <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
@@ -30,5 +35,6 @@
       </div>
     </div>
   </li>
+  {% endfor %}
   {% endfor %}
 </ul>

@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an Associate Professor at Sapienza University of Rome. I was previously an Assistant Professor at Sapienza University of Rome, and a PostDoc researcher at ETH Zürich and University of Pisa. I received the Ph.D. in Computer Science from the University of Pisa.
+I am an Associate Professor at Sapienza University of Rome, where I lead the [HLC (High-Performance Large-Scale Computing) lab](https://hlc-lab.github.io). I was previously an Assistant Professor at Sapienza University of Rome, and a PostDoc researcher at ETH Zürich and University of Pisa. I received the Ph.D. in Computer Science from the University of Pisa.
 
 My main reseach interests lie on the fields of Interconnection Networks, High Performance Computing, Green Computing, and Parallel Programming.
 You can find more about my research by checking the [publications page](/publications/).
