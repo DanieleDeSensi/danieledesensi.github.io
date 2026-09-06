@@ -46,261 +46,148 @@
   ],
   "service": [
     {
-      "organization": "Euro-Par Conference",
-      "position": "Artifact Evaluation Chair",
-      "startDate": "2026",
-      "endDate": "2026",
-      "category": "Chair & Organizing Roles"
+      "name": "Artifact Evaluation Chair",
+      "conference": [
+        {
+          "title": "Euro-Par Conference (2026)"
+        }
+      ]
     },
     {
-      "organization": "ACM International Conference on Computing Frontiers (CF)",
-      "position": "Artifact Evaluation Co-Chair",
-      "startDate": "2024",
-      "endDate": "2024",
-      "category": "Chair & Organizing Roles"
+      "name": "Artifact Evaluation Co-Chair",
+      "conference": [
+        {
+          "title": "ACM International Conference on Computing Frontiers (CF) (2024)"
+        }
+      ]
     },
     {
-      "organization": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
-      "position": "Publicity Co-Chair",
-      "startDate": "2023",
-      "endDate": "2024",
-      "category": "Chair & Organizing Roles"
+      "name": "Publicity Co-Chair",
+      "conference": [
+        {
+          "title": "IEEE International Parallel and Distributed Processing Symposium (IPDPS) (2023-2024)"
+        },
+        {
+          "title": "International Conference on Parallel, Distributed and Network-Based Processing (PDP) (2022-2024)"
+        }
+      ]
     },
     {
-      "organization": "International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
-      "position": "Publicity Co-Chair",
-      "startDate": "2022",
-      "endDate": "2024",
-      "category": "Chair & Organizing Roles"
+      "name": "Program Vice Chair",
+      "conference": [
+        {
+          "title": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC) (2023)"
+        }
+      ]
     },
     {
-      "organization": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)",
-      "position": "Program Vice Chair",
-      "startDate": "2023",
-      "endDate": "2023",
-      "category": "Chair & Organizing Roles"
+      "name": "Publicity Chair",
+      "conference": [
+        {
+          "title": "International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD) (2023)"
+        }
+      ]
     },
     {
-      "organization": "International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD)",
-      "position": "Publicity Chair",
-      "startDate": "2023",
-      "endDate": "2023",
-      "category": "Chair & Organizing Roles"
+      "name": "Local Chair",
+      "conference": [
+        {
+          "title": "Euro-Par Conference (2018)"
+        }
+      ]
     },
     {
-      "organization": "Euro-Par Conference",
-      "position": "Local Chair",
-      "startDate": "2018",
-      "endDate": "2018",
-      "category": "Chair & Organizing Roles"
+      "name": "Doctoral Workshop Committee Member",
+      "conference": [
+        {
+          "title": "SOSP 2026 (2026)"
+        }
+      ]
     },
     {
-      "organization": "Euro-Par Conference",
-      "position": "Artifact Evaluation Committee Member",
-      "category": "Artifact Evaluation Committee",
-      "years": "2018, 2022-2024",
-      "startDate": "2018",
-      "endDate": "2024"
+      "name": "Artifact Evaluation Committee Member",
+      "conference": [
+        {
+          "title": "Euro-Par Conference (2018, 2022-2024)"
+        },
+        {
+          "title": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS) (2021)"
+        },
+        {
+          "title": "ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP) (2021)"
+        }
+      ]
     },
     {
-      "organization": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
-      "position": "Artifact Evaluation Committee Member",
-      "category": "Artifact Evaluation Committee",
-      "years": "2021",
-      "startDate": "2021",
-      "endDate": "2021"
-    },
-    {
-      "organization": "ACM SIGPLAN Annual Symposium on Principles and Practice of Parallel Programming (PPoPP)",
-      "position": "Artifact Evaluation Committee Member",
-      "category": "Artifact Evaluation Committee",
-      "years": "2021",
-      "startDate": "2021",
-      "endDate": "2021"
-    },
-    {
-      "organization": "SOSP 2026",
-      "position": "Doctoral Workshop Committee Member",
-      "category": "Program Committee",
-      "years": "2026",
-      "startDate": "2026",
-      "endDate": "2026"
-    },
-    {
-      "organization": "EuroMPI 2026",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2026",
-      "startDate": "2026",
-      "endDate": "2026"
-    },
-    {
-      "organization": "ACM International Conference on Supercomputing 2026 (ICS)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2026",
-      "startDate": "2026",
-      "endDate": "2026"
-    },
-    {
-      "organization": "SC26 Workshop on High Performance Fabrics for AI and HPC",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2026",
-      "startDate": "2026",
-      "endDate": "2026"
-    },
-    {
-      "organization": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2024, 2026",
-      "startDate": "2024",
-      "endDate": "2026"
-    },
-    {
-      "organization": "International Conference on Parallel Processing (ICPP)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2024-2026",
-      "startDate": "2024",
-      "endDate": "2026"
-    },
-    {
-      "organization": "International Symposium on High-Performance Parallel and Distributed Computing (HPDC)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2023, 2025, 2026",
-      "startDate": "2023",
-      "endDate": "2026"
-    },
-    {
-      "organization": "International Conference for High Performance Computing, Networking, Storage, and Analysis (SC)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2021-2026",
-      "startDate": "2021",
-      "endDate": "2026"
-    },
-    {
-      "organization": "19th USENIX Symposium on Operating Systems Design and Implementation (OSDI)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2025",
-      "startDate": "2025",
-      "endDate": "2025"
-    },
-    {
-      "organization": "ACM Asia-Pacific Workshop on Systems (APSys)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2024",
-      "startDate": "2024",
-      "endDate": "2024"
-    },
-    {
-      "organization": "Euro-Par Conference, Workshop on \"Scalable Compute Continuum\"",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2023-2024",
-      "startDate": "2023",
-      "endDate": "2024"
-    },
-    {
-      "organization": "International Conference on Parallel, Distributed and Network-Based Processing (PDP)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2022-2024",
-      "startDate": "2022",
-      "endDate": "2024"
-    },
-    {
-      "organization": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2020-2024",
-      "startDate": "2020",
-      "endDate": "2024"
-    },
-    {
-      "organization": "International Conference on Computer Science and Software Engineering (CSASE)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2021",
-      "startDate": "2021",
-      "endDate": "2021"
-    },
-    {
-      "organization": "International Conference on Advanced Communications and Computation (INFOCOMP)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2020-2021",
-      "startDate": "2020",
-      "endDate": "2021"
-    },
-    {
-      "organization": "International Conference on Cloud Computing and Internet of Things (CCIOT)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2019-2021",
-      "startDate": "2019",
-      "endDate": "2021"
-    },
-    {
-      "organization": "Auto-DaSP Workshop, Euro-Par Conference",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2017-2021",
-      "startDate": "2017",
-      "endDate": "2021"
-    },
-    {
-      "organization": "Special Session on High Performance Computing and  Modeling and Simulation Education -- HPCS Conference (HPCEd)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2020",
-      "startDate": "2020",
-      "endDate": "2020"
-    },
-    {
-      "organization": "International Conference on Big Data and Internet of Things (BDIOT)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2019-2020",
-      "startDate": "2019",
-      "endDate": "2020"
-    },
-    {
-      "organization": "International Conference on Parallel Processing and Applied Mathematics (PPAM) - Special Session on Tools for Energy Efficient Computing",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2019",
-      "startDate": "2019",
-      "endDate": "2019"
-    },
-    {
-      "organization": "International Conference on Advanced Engineering Computing and Applications in Sciences (ADVCOMP)",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2019",
-      "startDate": "2019",
-      "endDate": "2019"
-    },
-    {
-      "organization": "Parallel Numerical Methods and Libraries for Heterogeneous Multi/Many-cores Special Session, PDP Conference",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2019",
-      "startDate": "2019",
-      "endDate": "2019"
-    },
-    {
-      "organization": "International Workshop on Advancements in Parallel Programming Models and Frameworks for the Multi-Many-core Era",
-      "position": "Technical Program Committee Member",
-      "category": "Program Committee",
-      "years": "2017",
-      "startDate": "2017",
-      "endDate": "2017"
+      "name": "Technical Program Committee Member",
+      "conference": [
+        {
+          "title": "EuroMPI 2026 (2026)"
+        },
+        {
+          "title": "ACM International Conference on Supercomputing 2026 (ICS) (2026)"
+        },
+        {
+          "title": "SC26 Workshop on High Performance Fabrics for AI and HPC (2026)"
+        },
+        {
+          "title": "IEEE International Parallel and Distributed Processing Symposium (IPDPS) (2024, 2026)"
+        },
+        {
+          "title": "International Conference on Parallel Processing (ICPP) (2024-2026)"
+        },
+        {
+          "title": "International Symposium on High-Performance Parallel and Distributed Computing (HPDC) (2023, 2025, 2026)"
+        },
+        {
+          "title": "International Conference for High Performance Computing, Networking, Storage, and Analysis (SC) (2021-2026)"
+        },
+        {
+          "title": "19th USENIX Symposium on Operating Systems Design and Implementation (OSDI) (2025)"
+        },
+        {
+          "title": "ACM Asia-Pacific Workshop on Systems (APSys) (2024)"
+        },
+        {
+          "title": "Euro-Par Conference, Workshop on \"Scalable Compute Continuum\" (2023-2024)"
+        },
+        {
+          "title": "International Conference on Parallel, Distributed and Network-Based Processing (PDP) (2022-2024)"
+        },
+        {
+          "title": "IEEE International Conference on High Performance Computing, Data, and Analytics (HiPC) (2020-2024)"
+        },
+        {
+          "title": "International Conference on Computer Science and Software Engineering (CSASE) (2021)"
+        },
+        {
+          "title": "International Conference on Advanced Communications and Computation (INFOCOMP) (2020-2021)"
+        },
+        {
+          "title": "International Conference on Cloud Computing and Internet of Things (CCIOT) (2019-2021)"
+        },
+        {
+          "title": "Auto-DaSP Workshop, Euro-Par Conference (2017-2021)"
+        },
+        {
+          "title": "Special Session on High Performance Computing and  Modeling and Simulation Education -- HPCS Conference (HPCEd) (2020)"
+        },
+        {
+          "title": "International Conference on Big Data and Internet of Things (BDIOT) (2019-2020)"
+        },
+        {
+          "title": "International Conference on Parallel Processing and Applied Mathematics (PPAM) - Special Session on Tools for Energy Efficient Computing (2019)"
+        },
+        {
+          "title": "International Conference on Advanced Engineering Computing and Applications in Sciences (ADVCOMP) (2019)"
+        },
+        {
+          "title": "Parallel Numerical Methods and Libraries for Heterogeneous Multi/Many-cores Special Session, PDP Conference (2019)"
+        },
+        {
+          "title": "International Workshop on Advancements in Parallel Programming Models and Frameworks for the Multi-Many-core Era (2017)"
+        }
+      ]
     }
   ],
   "education": [

@@ -1,0 +1,22 @@
+<div class="list-groups">
+  {% for content in data[1] %}
+  <div class="list-group col-md-6">
+    <table class="table-cv list-group-table">
+      <tbody>
+        <tr>
+          <td class="list-group-category-icon"></td>
+          <td colspan="2" class="list-group-category"><b>{{ content.name }}</b></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="list-group-name">
+            {% for item in content.conference %}
+              {% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  {% endfor %}
+</div>
