@@ -1,0 +1,36 @@
+name: Sync publications & news from lab site
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone lab site
+        run: git clone --depth 1 https://github.com/HLC-Lab/hlc.github.io.git /tmp/lab-site
+
+      - name: Sync selected-papers bibliography
+        run: cp /tmp/lab-site/_bibliography/papers.bib _bibliography/papers.bib
+
+      - name: Sync new news posts
+        run: cp -n /tmp/lab-site/_news/*.md _news/
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+
+      - name: Commit and push if changed
+        run: |
+          git add _bibliography/papers.bib _news
+          git diff --staged --quiet || (
+            git commit -m "Sync publications and news from lab site"
+            git push
+          )

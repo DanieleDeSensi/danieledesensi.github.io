@@ -62,6 +62,18 @@
               </li>
               {%- endif %}
 
+              <!-- Publications, static link to lab website -->
+              <li class="nav-item">
+                <a class="nav-link" href="https://hlc-lab.github.io/publications/">Publications
+                </a>
+              </li>
+
+              <!-- Thesis, static link to lab website -->
+              <li class="nav-item">
+                <a class="nav-link" href="https://hlc-lab.github.io/thesis/">Thesis
+                </a>
+              </li>
+
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
