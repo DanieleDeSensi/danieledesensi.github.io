@@ -68,7 +68,7 @@
       "name": "Poster Chair",
       "conference": [
         {
-          "title": "SCA (2027)"
+          "title": "SCAsia (2027)"
         }
       ]
     },
@@ -84,13 +84,37 @@
       "name": "Program Committee Member",
       "conference": [
         {
-          "title": "CoNEXT INET4AI (2026)"
+          "title": "SC (2021-2026)"
+        },
+        {
+          "title": "ICS (2026)"
+        },
+        {
+          "title": "HPDC (2023, 2025-2026)"
+        },
+        {
+          "title": "OSDI (2025)"
+        },
+        {
+          "title": "ICPP (2024-2026)"
+        },
+        {
+          "title": "SCAsia (2027)"
+        },
+        {
+          "title": "HiPC (2020-2024)"
+        },
+        {
+          "title": "PDP (2022-2025)"
         },
         {
           "title": "EuroMPI (2026)"
         },
         {
-          "title": "ICS (2026)"
+          "title": "PPAM (2019)"
+        },
+        {
+          "title": "CoNEXT INET4AI (2026)"
         },
         {
           "title": "PMBS (2026)"
@@ -102,31 +126,13 @@
           "title": "NAIC (2025)"
         },
         {
-          "title": "OSDI (2025)"
-        },
-        {
           "title": "IPDPS (2024, 2026-2027)"
         },
         {
           "title": "APSys (2024)"
         },
         {
-          "title": "SC (2021-2026)"
-        },
-        {
-          "title": "ICPP (2024-2026)"
-        },
-        {
           "title": "Euro-Par WSCC (2023-2025)"
-        },
-        {
-          "title": "HPDC (2023, 2025-2026)"
-        },
-        {
-          "title": "PDP (2022-2025)"
-        },
-        {
-          "title": "HiPC (2020-2024)"
         },
         {
           "title": "CSASE (2021)"
@@ -144,9 +150,6 @@
           "title": "BDIOT (2019-2020)"
         },
         {
-          "title": "PPAM (2019)"
-        },
-        {
           "title": "Auto-DaSP (2017-2021)"
         },
         {
@@ -157,9 +160,6 @@
         },
         {
           "title": "Parallel Programming Models Workshop (2017)"
-        },
-        {
-          "title": "SCA (2027)"
         }
       ]
     },

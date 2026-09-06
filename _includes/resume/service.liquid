@@ -10,9 +10,11 @@
         <tr>
           <td></td>
           <td class="list-group-name">
-            {% for item in content.conference %}
-              {% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}{% unless forloop.last %}, {% endunless %}
-            {% endfor %}
+            <ul class="mb-0 pl-3">
+              {% for item in content.conference %}
+              <li>{% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</li>
+              {% endfor %}
+            </ul>
           </td>
         </tr>
       </tbody>
