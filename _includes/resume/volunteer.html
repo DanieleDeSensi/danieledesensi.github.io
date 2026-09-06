@@ -6,6 +6,12 @@
     <h5 class="font-weight-bold">{{ group.name }}</h5>
   </li>
   {% for content in group.items %}
+  {% if content.years %}
+  <li class="list-group-item">
+    <span class="font-weight-bold ml-1 ml-md-4">{{ content.organization }}</span>
+    <span class="ml-1" style="font-size: 0.95rem;">({{ content.years }})</span>
+  </li>
+  {% else %}
   <li class="list-group-item">
     <div class="row">
       <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="width: 75px;">
@@ -35,6 +41,7 @@
       </div>
     </div>
   </li>
+  {% endif %}
   {% endfor %}
   {% endfor %}
 </ul>
