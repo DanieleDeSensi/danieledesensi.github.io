@@ -46,6 +46,14 @@
   ],
   "service": [
     {
+      "name": "Finance Chair",
+      "conference": [
+        {
+          "title": "ICS (2027)"
+        }
+      ]
+    },
+    {
       "name": "Artifact Evaluation Co-Chair",
       "conference": [
         {
@@ -87,7 +95,7 @@
           "title": "SC (2021-2026)"
         },
         {
-          "title": "ICS (2026)"
+          "title": "ICS (2026-2027)"
         },
         {
           "title": "HPDC (2023, 2025-2026)"
